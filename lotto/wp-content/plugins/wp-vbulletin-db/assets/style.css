@@ -1,0 +1,19 @@
+.vbrss2_container ul{
+    list-style: none;
+}
+
+.vbrss2_posts_items {
+    display: none
+}
+
+.vbrss2_threads_items {
+    display: block
+}
+
+.vbrss2_tabs {
+    overflow: hidden;
+    text-align: center;
+}
+.vbrss2_tabs li {float:left;}
+.vbrss2_container ul.vbrss2_items{display:none;}
+.vbrss2_container ul.vbrss2_active{display:block;}

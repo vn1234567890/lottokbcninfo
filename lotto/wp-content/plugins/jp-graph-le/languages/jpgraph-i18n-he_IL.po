@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jpgraph-i18n\n"
+"POT-Creation-Date: 2013-10-07 21:53+0200\n"
+"PO-Revision-Date: 2013-10-07 22:44+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\lotterypro\\wp-content\\plugins"
+"\\jp-graph\n"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:6
+msgid "Check all"
+msgstr "לבדוק את כל"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:7
+msgid "Uncheck all"
+msgstr "בטל כל"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:8
+msgid "Select options"
+msgstr "בחר אפשרויות"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:9
+msgid "# selected"
+msgstr "# נבחר"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:10
+msgid "Compare up to 3 lottos"
+msgstr "להשוות עד 3 הגרלות"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:11
+msgid "You can compare up to 3 lottos only!"
+msgstr "אתה יכול להשוות עד 3 הגרלות בלבד!"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:12
+msgid "Check a few boxes."
+msgstr "בדקו כמה תיבות."
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:13
+msgid "Please select at least two or more lotteries to compare!"
+msgstr "בחר שתיים או יותר לפחות הגרלות להשוואה!"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.js.php:14
+msgid "en"
+msgstr "he"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:110
+msgid "Extra numbers:"
+msgstr "מספרים נוספים:"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:111
+msgid "This lotto do not have additional extra numbers!"
+msgstr "הגרלה זה לא צריך מספרים נוספים נוספים!"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:112
+msgid "Drawn Times"
+msgstr "טיימס נמשך"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:113
+msgid "Cold number"
+msgstr "מספר קר"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:114
+msgid "Hot number"
+msgstr "מספר חם"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:115
+msgid "Lotto Numbers"
+msgstr "מספרי לוטו"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:116
+msgid "Draw No: "
+msgstr "תיקו אין:"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:227
+#, php-format
+msgid "Drawn number: %d<br />Drawn %s times"
+msgstr "מספר נמשך: %d<br />פעמים נמשכים %s"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:269
+#, php-format
+msgid "Drawn number: %d"
+msgstr "מספר נמשך: %d"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/graph.php:270
+#, php-format
+msgid "Drawn %d times"
+msgstr "נמשך %d פעמים"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/jpgraph.php:33
+msgid "Predicted Jackpot:"
+msgstr "קופה ניבאה:"
+
+#: D:\xampp\htdocs\lotterypro\wp-content\plugins\jp-graph/jpgraph.php:34
+msgid "Compare Lottos"
+msgstr "שקלו את ההגרלות"
+
+#, fuzzy
+#~ msgid "Drawn number: "
+#~ msgstr "Допълнителни числа:"

@@ -1,0 +1,52 @@
+ Volume in drive D is VirtualBox
+ Volume Serial Number is 02F6-1269
+
+ Directory of D:\xampp\htdocs\lottoexposed\wp-content\plugins\lottery-reviews\images\flags
+
+26.03.2013 ?.  11:42    <DIR>          .
+26.03.2013 ?.  11:42    <DIR>          ..
+08.03.2013 ?.  13:56               939 Arabic.png
+08.03.2013 ?.  13:55               509 Bahasa Indonesia.png
+08.03.2013 ?.  13:55               850 Belgium.png
+08.03.2013 ?.  13:55             1ÿ004 Brazilian Portuguese.png
+08.03.2013 ?.  13:55               520 Bulgarian.png
+08.03.2013 ?.  13:55               963 Cantonese.png
+08.03.2013 ?.  13:55               845 Chinese.png
+08.03.2013 ?.  13:55               767 Croatian.png
+08.03.2013 ?.  13:55               818 Czech.png
+08.03.2013 ?.  13:55               575 Danish.png
+08.03.2013 ?.  13:55               509 Deutsch.png
+08.03.2013 ?.  13:56               509 Dutch.png
+08.03.2013 ?.  13:56               765 English.png
+08.03.2013 ?.  13:55               509 Estonian.png
+08.03.2013 ?.  13:55               589 Finnish.png
+26.03.2013 ?.  11:42                 0 flasg.txt
+08.03.2013 ?.  13:55               632 French Canadian.png
+08.03.2013 ?.  13:55               851 French.png
+08.03.2013 ?.  13:55               671 Greek.png
+08.03.2013 ?.  13:55               637 Hebrew.png
+08.03.2013 ?.  13:55               613 Hindi.png
+08.03.2013 ?.  13:55               509 Hungarian.png
+08.03.2013 ?.  13:55               626 Icelandic.png
+08.03.2013 ?.  13:55               851 Italian.png
+08.03.2013 ?.  13:55               626 Japanese.png
+08.03.2013 ?.  13:56               947 Korean.png
+08.03.2013 ?.  13:55               509 Latvian.png
+08.03.2013 ?.  13:55               509 Lithuanian.png
+08.03.2013 ?.  13:55               789 Macedonian.png
+08.03.2013 ?.  13:55               741 Moldovan.png
+08.03.2013 ?.  13:56               626 Norwegian.png
+08.03.2013 ?.  13:56               509 Polish.png
+08.03.2013 ?.  13:56               869 Portuguese.png
+08.03.2013 ?.  13:56               851 Romanian.png
+08.03.2013 ?.  13:56               520 Russian.png
+08.03.2013 ?.  13:56               731 Serbian.png
+08.03.2013 ?.  13:56               667 Slovakian.png
+08.03.2013 ?.  13:56               602 Slovenian.png
+08.03.2013 ?.  13:56               705 Spanish.png
+08.03.2013 ?.  13:56               575 Swedish.png
+08.03.2013 ?.  13:56               718 Turkish.png
+08.03.2013 ?.  13:56               509 Ukrainian.png
+08.03.2013 ?.  13:56               615 Vietnamese.png
+              43 File(s)         28ÿ679 bytes
+               2 Dir(s)   4ÿ367ÿ151ÿ104 bytes free

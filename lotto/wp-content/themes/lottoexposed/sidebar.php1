@@ -1,0 +1,60 @@
+    <div class="content_right">
+			
+	<div class="sidebar-block sidebar-block-bg">
+		<?php dynamic_sidebar('sidebar-text'); ?>
+	</div>
+	
+	<div class="sidebar-block">
+		<div class="textwidget">    <div class="approved_top"></div>
+		<div class="approved_mid">
+		<?php
+		$slides=$wpdb->get_results("SELECT * FROM {$wpdb->prefix}lotteries WHERE approved=1 ORDER BY position ASC LIMIT 0,3 ");
+		$i=1;
+		foreach ($slides as $s):
+		?>
+			<div class="slide1">
+			    <div class="slide_left"><div class="lottery_number<?php echo $i; ?>"></div><a href="/<?php echo $s->slug; ?>"><img border="0" src="<?php echo $s->logo; ?>"></a></div>
+			    <div class="slide_right"><p><a href="<?php echo $s->slug; ?>"><?php echo $s->site_name; ?></a></p><p>Alexa : <?php echo number_format($s->alexa); ?></p><a class="playnow2" href="<?php echo $s->visit_url; ?>"></a></div>
+			    <div class="clear"></div>
+			</div>
+		<?php $i++; endforeach; ?>
+		<div class="lotter_btn"><a href="/all-lotteries/"><img border="0" width="201" height="27" alt="" src="<?php bloginfo('template_directory'); ?>/images/lottery+_btn.png"></a></div>
+		</div>
+		<div class="approved_btm"></div></div>
+	</div>
+	
+	<div class="sidebar-block">
+		<?php dynamic_sidebar('subscribe-form'); ?>
+	</div>
+	
+	<div id="sidebar-search">
+		<form action="/" method="get">
+			<input type="text" name="s" value="" placeholder="Search word">
+			<input type="image" src="<?php bloginfo('template_url'); ?>/images/search-button.png" onclick="function(this){location = '/?s=' + encodeURIComponent(this.value);return false;}">
+		</form>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+					jQuery("#sidebar-search form").submit(function(e){
+							var val=jQuery(this).find("input[type='text']").val();
+							location.href=location.href+"?s="+encodeURIComponent(val);
+							e.preventDefault();
+					});
+			});
+		</script>
+	</div>
+	<div class="sidebar-block sidebar-block-bg">
+		<div class="sidebar-block-header">Have Your Say</div>
+		<?php
+			$args = array(
+				'status' => 'approve',
+				'number' => '5'
+			);
+			$comments = get_comments($args);
+			foreach($comments as $comment) :
+				echo '<div class="comment-inside"><div class="comment-author">'.$comment->comment_author.' on <a href="'.get_permalink($comment->comment_post_ID).'">'.get_the_title($comment->comment_post_ID).'</a></div>';
+				$comment_array=array_slice(explode(' ',$comment->comment_content),0,15);
+				echo implode(' ',$comment_array).'<a href="'.get_permalink($comment->comment_post_ID ).'">... read more</a></div>';
+			endforeach;
+		?>
+	</div>
+</div><!-- .content_right -->

@@ -1,0 +1,90 @@
+.vb_avatar { 
+	float: left;
+    width: 20%;
+	margin-top:15px;
+}
+.vb_title { 
+	float:left;
+	width:70%;
+	margin:8px 0px 0px 10px !important;
+}
+
+.vb_title a { 
+	text-decoration:none;
+}
+
+
+
+* {
+	margin:0;
+	padding:0;
+}
+
+#tabContainer {
+	width:100%;
+}
+
+#tabs{
+	height:30px;
+	overflow:hidden;
+	background: #F9F9F9;
+
+}
+
+#tabs > ul{
+	font: 1em;
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0 !important;
+	list-style:none;
+}
+
+#tabs > ul > li{
+	padding:3px 20px;
+	display:block;
+	float:left;
+	color:#000;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 0px;
+	-moz-border-radius-bottomleft: 0px;
+	
+	background: #ECECEC; /* old browsers */
+	background: -moz-linear-gradient(top, #ECECEC 0%, #ECECEC 100%); /* firefox */
+	
+}
+
+#tabs > ul > li:hover{
+	background: #FFFFFF; /* old browsers */
+	background: -moz-linear-gradient(top, #FFFFFF 0%, #FFFFFF 10%, #FFFFFF 50%, #FFFFFF 100%); /* firefox */
+	cursor:pointer;
+	color: #000;
+}
+
+#tabs > ul > li.tabActiveHeader{
+	background: #33536A; /* old browsers */
+	background: -moz-linear-gradient(top, #33536A 0%, #33536A 0%, #33536A 0%, #33536A 0%); /* firefox */
+	cursor:pointer;
+	color: #FFF;
+}
+
+
+#tabscontent {
+	-moz-border-radius-topleft: 0px;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px; 
+	padding:10px 10px 25px;
+	background: #F9F9F9; /* old browsers */
+	
+	margin:0;
+	color:#333;
+}

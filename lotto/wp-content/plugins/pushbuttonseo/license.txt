@@ -1,0 +1,111 @@
+Licensing Terms for PushButton SEO
+--------------------------------------------------
+
+
+Single Domain License
+--------------------------------------------------
+
+
+1. This is an agreement between Licensor (Awesome Web Marketing) and Licensee (You), who is being licensed to use the PushButton SEO plugin for WordPress.
+
+2. Licensee acknowledges that this is only a limited nonexclusive license. Licensor is and remains the owner of all titles, rights, and interests in PushButton SEO.
+
+3. This License permits Licensee to install PushButton SEO on a SINGLE WORDPRESS INSTALLATION for use on a SINGLE TOP LEVEL DOMAIN that the Licensee is the registered owner of according to a current WHOIS query for the domain. 
+
+4. Licensee will not make copies of the Software or allow copies of the Software to be made by others. Licensee may make copies of the Software for backup purposes only.
+
+5. Licensee will not resell PushButton SEO or make available as part of any other offer. 
+
+6. Licensee will not install the plugin with the intent of allowing other WordPress users to access the plugin for their own use. All top level domain, subdomain and folder level installations must be owned and installed by the Licensee and PushButton SEO must be operated by Licensee.
+
+7. Licensee will not deconstruct or reverse engineer plugin code in any way.
+
+8. Licensee will not use any portion of the PushButton SEO code in any other software whether or not designed for use with WordPress.
+
+9. LICENSOR IS NOT LIABLE TO LICENSEE FOR ANY DAMAGES, INCLUDING COMPENSATORY, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, CONNECTED WITH OR RESULTING FROM THIS LICENSE AGREEMENT OR LICENSEE'S USE OF PushButton SEO. Licensee's jurisdiction may not allow such a limitation of damages, so this limitation may not apply.
+
+10. Licensee agrees to defend and indemnify Licensor and hold Licensor harmless from all claims, losses, damages, complaints, or expenses connected with or resulting from Licensee's use of PushButton SEO.
+
+11. Licensor has the right to terminate this License Agreement and Licensee's right to use PushButton SEO upon any material breach by Licensee.
+
+12. Licensee agrees to return to Licensor or to destroy all copies of PushButton SEO upon termination of the License.
+
+13. This License Agreement is the entire and exclusive agreement between Licensor and Licensee regarding PushButton SEO. This License Agreement replaces and supersedes all prior negotiations, dealings, and agreements between Licensor and Licensee regarding PushButton SEO.
+
+14. This License Agreement is governed by the law of Colorado, USA applicable to Colorado, USA contracts.
+
+15. This License Agreement is valid without Licensor's signature. It becomes effective upon the Licensee's installation of PushButton SEO.
+
+
+
+Multi Domain License
+--------------------------------------------------
+
+
+1. This is an agreement between Licensor (Awesome Web Marketing) and Licensee (You), who is being licensed to use the PushButton SEO plugin for WordPress.
+
+2. Licensee acknowledges that this is only a limited nonexclusive license. Licensor is and remains the owner of all titles, rights, and interests in PushButton SEO.
+
+3. This License permits Licensee to install PushButton SEO on up to 50 WORDPRESS INSTALLATIONS for use on up to 50 TOP LEVEL DOMAINS that the Licensee is the registered owner of according to a current WHOIS query for the domain. 
+
+4. Licensee will not make copies of the Software or allow copies of the Software to be made by others. Licensee may make copies of the Software for backup purposes only.
+
+5. Licensee will not resell PushButton SEO or make available as part of any other offer. 
+
+6. Licensee will not install the plugin with the intent of allowing other WordPress users to access the plugin for their own use. All top level domain, subdomain and folder level installations must be owned and installed by the Licensee and PushButton SEO must be operated by Licensee.
+
+7. Licensee will not deconstruct or reverse engineer plugin code in any way.
+
+8. Licensee will not use any portion of the PushButton SEO code in any other software whether or not designed for use with WordPress.
+
+9. LICENSOR IS NOT LIABLE TO LICENSEE FOR ANY DAMAGES, INCLUDING COMPENSATORY, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, CONNECTED WITH OR RESULTING FROM THIS LICENSE AGREEMENT OR LICENSEE'S USE OF PushButton SEO. Licensee's jurisdiction may not allow such a limitation of damages, so this limitation may not apply.
+
+10. Licensee agrees to defend and indemnify Licensor and hold Licensor harmless from all claims, losses, damages, complaints, or expenses connected with or resulting from Licensee's use of PushButton SEO.
+
+11. Licensor has the right to terminate this License Agreement and Licensee's right to use PushButton SEO upon any material breach by Licensee.
+
+12. Licensee agrees to return to Licensor or to destroy all copies of PushButton SEO upon termination of the License.
+
+13. This License Agreement is the entire and exclusive agreement between Licensor and Licensee regarding PushButton SEO. This License Agreement replaces and supersedes all prior negotiations, dealings, and agreements between Licensor and Licensee regarding PushButton SEO.
+
+14. This License Agreement is governed by the law of Colorado, USA applicable to Colorado, USA contracts.
+
+15. This License Agreement is valid without Licensor's signature. It becomes effective upon the Licensee's installation of PushButton SEO.
+
+
+
+Enterprise Domain License
+--------------------------------------------------
+
+
+1. This is an agreement between Licensor (Awesome Web Marketing) and Licensee (You), who is being licensed to use the PushButton SEO plugin for WordPress.
+
+1a. The Enterprise Domain License permits the Licensee to install and operate PushButton SEO on client domains. Under the terms of this license the Client shall be any active and paying customer or legally recognised associate of the Licensee where that customer or associate is a private individual or a legally registered business entity.
+
+2. Licensee acknowledges that this is only a limited nonexclusive license. Licensor is and remains the owner of all titles, rights, and interests in PushButton SEO.
+
+3. This License permits Licensee to install PushButton SEO on up to 500 WORDPRESS INSTALLATIONS for use on up to 500 TOP LEVEL DOMAINS that the Licensee or Client is the registered owner of according to a current WHOIS query for the domain. 
+
+4. Licensee or Client will not make copies of the Software or allow copies of the Software to be made by others. Licensee may make copies of the Software for backup purposes only.
+
+5. Licensee or Client will not resell PushButton SEO or make available as part of any other offer. 
+
+6. Licensee will not install the plugin with the intent of allowing other WordPress users other than the Client to access the plugin for their own use. All top level domain, subdomain and folder level installations must be owned and installed by the Licensee or the Client and PushButton SEO must be operated by Licensee or the Client.
+
+7. Licensee or Client will not deconstruct or reverse engineer plugin code in any way.
+
+8. Licensee or Client will not use any portion of the PushButton SEO code in any other software whether or not designed for use with WordPress.
+
+9. LICENSOR IS NOT LIABLE TO LICENSEE FOR ANY DAMAGES, INCLUDING COMPENSATORY, SPECIAL, INCIDENTAL, EXEMPLARY, PUNITIVE, OR CONSEQUENTIAL DAMAGES, CONNECTED WITH OR RESULTING FROM THIS LICENSE AGREEMENT OR LICENSEE'S OR CLIENT'S USE OF PushButton SEO. Licensee's or Client's jurisdiction may not allow such a limitation of damages, so this limitation may not apply.
+
+10. Licensee and the Client agrees to defend and indemnify Licensor and hold Licensor harmless from all claims, losses, damages, complaints, or expenses connected with or resulting from Licensee's or Client's use of PushButton SEO.
+
+11. Licensor has the right to terminate this License Agreement and Licensee's or Client's right to use PushButton SEO upon any material breach by Licensee or Client.
+
+12. Licensee and Client agrees to return to Licensor or to destroy all copies of PushButton SEO upon termination of the License.
+
+13. This License Agreement is the entire and exclusive agreement between Licensor and Licensee or Client regarding PushButton SEO. This License Agreement replaces and supersedes all prior negotiations, dealings, and agreements between Licensor and Licensee or Client regarding PushButton SEO.
+
+14. This License Agreement is governed by the law of Colorado, USA applicable to Colorado, USA contracts.
+
+15. This License Agreement is valid without Licensor's signature. It becomes effective upon the Licensee's installation of PushButton SEO.

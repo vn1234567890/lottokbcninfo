@@ -1,0 +1,202 @@
+
+/*------------------------------------*\
+    Android
+\*------------------------------------*/
+@media only screen and (min-device-pixel-ratio : 1.325),(max-device-width: 800px),(max-width: 800px){
+    body{
+
+        overflow-x: hidden;
+    }
+
+    .header_in{
+        clear:both;
+
+    }
+    #container {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .container-wrap{
+        width: 100%;
+    }
+    .navigation ul{
+        width: 720px;
+        margin: 0 auto;
+        float: none;
+        clear: both;
+        border-radius: 3px;
+
+    }
+    .sidebar-block{
+        display: none !important;
+    }
+    .sidebar-block-mobi{
+        clear: both;
+        float: left;
+        position: relative;
+    }
+    .sidebar-block-mobi .sidebar-block-header,.jackpots_box_header{
+        text-indent: 10px !important;
+    }
+    .sidebar-jackpot .android {
+        display: inline-block !important;
+        width: 30% !important;
+        height: 155px;
+        margin-top: 8px !important;
+        margin-bottom: 10px !important;
+    }
+    .sidebar-jackpot a.lottery_link{
+        font-size: 12px;
+    }
+    .sidebar-jackpot div{
+        font-size: 13px;
+    }
+
+    .logos {
+        float: left;
+        margin-top: 8px;
+        width: 140px;
+    }
+    .text_inner{
+        width: 72%;
+    }
+    .img {
+        float: left;
+        width: 23%;
+        margin-right: 5px ;
+    }
+    .img img{
+        width: 23%;
+        min-width: 100%;
+        max-width: 200px;
+    }
+    #sidebar-search{
+        background-color: #2B2B2B;
+        border-radius: 5px;
+        box-shadow: 0 -2px 0 #3B3B3B, 2px -2px 0 #3B3B3B;
+        float: none;
+        height: 37px;
+        margin: 0 auto;
+        text-align: center;
+        width: 243px;
+    }
+    #sidebar-search input[type="text"]{
+
+    }
+    #sidebar-search form{
+        padding: 0 1px;
+    }
+
+    .navigation ul li a{
+        padding: 0 5px;
+    }
+    #content{
+        width: 100%;
+    }
+    .content2{
+        width: 100%;
+    }
+    .content_container{
+        width: 100%;
+    }
+    #content .post{
+        height: 100%;
+    }
+    .content_right{
+        width: 100%;
+        display: inline-block;
+    }
+    .approved img{
+        position: relative;
+        right: 0;
+        top: -34px;
+        width: 100%;
+    }
+    .approved{
+        background-color: #fff;
+    }
+    .home .content_right > .sidebar-block,.content_right > .sidebar-block{
+        width: 48%;
+        height: 310px !important;
+        float: left;
+        margin: 0 5px;
+    }
+    .jackpots_box{
+        float: left;
+        width: 100%;
+        margin-right: 11px;
+    }
+    .approved_lotteries_wrapper{
+        width: 100%;
+    }
+    .home #graphdiv{
+        width: 100% !important;
+        margin-bottom: 30px;
+        height: 720px;
+    }
+    #predictedjps{
+        width: 100% !important;
+    }
+    #compare {
+        float: right;
+        width: 217px;
+        position: relative;
+        right: 60px;
+    }
+    ul#btns {
+        margin: 0;
+        padding: 0;
+        width: 510px !important;
+    }
+    #btns a{
+        width: 117px !important;
+        font-size: 10px !important;
+    }
+    #predictedjps, #switchbuttons {
+        padding: 0 4px;
+    }
+    .home #chart, .home #control, .home #lottos {
+        width: 100%;
+    }
+
+    .sidebar-jackpot{
+        width: 33%;
+    }
+    .newsletter_box_wraper {
+        width: 100%;
+        float: left;
+        margin: 0 auto;
+        min-width: 280px;
+        text-align: center;
+    }
+    .footer_bg,.footer_container > div{
+        height: 100%;
+        width: 100%;
+    }
+    .footer_container .widget_text p:first-child{
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+
+    }
+    html body.single div.footer_bg div.footer5{
+        top:0px !important;
+    }
+    .footer_container{
+        width: 100%;
+        padding-top: 0;
+    }
+    div.footer5{
+        top:0
+    }
+    .module-block.active{
+        height: 213px;
+        overflow-y: hidden;
+        width: 100%;
+    }
+    /****************************/
+    .page #content{
+        border: 0 none;
+        padding: 0 18px;
+        width: 94%;
+    }
+}

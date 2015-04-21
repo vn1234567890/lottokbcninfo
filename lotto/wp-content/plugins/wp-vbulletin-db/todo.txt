@@ -1,0 +1,88 @@
+/*
+if strater=0 its forum
+if title != '' its thread
+if
+
+
+
+*/
+
+-- -----------------------------------------------------------------
+-- Latest threads :
+SELECT
+  n.*,
+  customavatar.dateline,
+  customavatar.userid
+FROM node AS n
+  LEFT JOIN customavatar AS customavatar
+    ON (customavatar.userid = n.userid)
+WHERE starter != 0
+AND htmltitle != ''
+ORDER BY nodeid DESC LIMIT 5
+-- -----------------------------------------------------------------
+-- Replies
+SELECT
+  n.*,
+  customavatar.dateline,
+  customavatar.userid
+FROM node AS n
+  LEFT JOIN customavatar AS customavatar
+    ON (customavatar.userid = n.userid)
+WHERE starter != 0
+AND title = ''
+ORDER BY nodeid DESC LIMIT 5
+-- -------------------------------------------------------------
+-- thread views
+SELECT * FROM nodeview n WHERE n.nodeid=29
+-- -------------------------------------------------------------
+-- replies count for tread
+  = node.totalcount - posts count in node
+  =textcount = topics cont in node
+-- ----------------------------------------------------------
+-- get parent URL data for reply
+SELECT
+  n.nodeid,-- prefix before tread (frum id)
+  r.prefix, -- route to forum
+  n.parentid,
+  n.urlident -- part of url of forum
+FROM node AS n
+  LEFT JOIN routenew AS r
+    ON (r.routeid = n.routeid)
+WHERE nodeid = 1864 //thread id
+/*
+ so url = uri_to_vb.r.prefix.'/'.n.nodeid.'-'.n.urlident
+ thread id can by gotten from parentid of post
+ */
+-- ----------------------------------------------------
+
+
+
+
+
+-- ------------------------------ Mine queries -------------------
+-- latest thread
+
+
+
+-- most replied
+SELECT
+  FROM_UNIXTIME(n.lastupdate) AS last_edit
+,FROM_UNIXTIME(n.lastcontent) AS last_reply
+  ,n.nodeid AS thread
+  ,v.count AS views
+  ,n.textcount AS replies
+  ,n.title
+  ,n.DESCRIPTION
+  ,CONCAT(r.prefix,'/',n.nodeid,'-',n.urlident) as url
+  ,CONCAT ('/core/image.php?userid=',n.userid,'&thumb=1&dateline',customavatar.dateline)
+
+FROM node AS n
+  JOIN routenew r ON (r.routeid = n.routeid)
+  JOIN nodeview v on (n.nodeid = v.nodeid)
+  LEFT JOIN customavatar AS customavatar
+    ON (customavatar.userid = n.userid)
+WHERE starter != 0
+AND htmltitle != ''
+ORDER BY n.textcount DESC LIMIT 5  -- most replied
+-- ORDER BY lastupdate DESC LIMIT 5 -- newest
+-- ORDER BY v.count DESC LIMIT 5 -- most viewed

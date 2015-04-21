@@ -1,0 +1,233 @@
+<?php
+$btntext = 'Play Now';
+$feed_url = "http://feeds.lottoelite.com/rss.php?lang=en&account=offpista&site=2&type=3"; 
+$content = file_get_contents($feed_url);  
+$x = new SimpleXmlElement($content);  
+    
+$i = 1;
+$lottodata = array();
+foreach($x->channel->item as $entry) {
+	  
+if ($i <4) {
+
+$url = (string) $entry->link;
+$query = parse_url($url, PHP_URL_QUERY);
+$vars = array();
+parse_str($query, $vars);
+$lot_id = $vars['lot_id'];
+
+$desc = $entry->description ;
+
+str_replace("&nbsp;", "", $desc);
+
+$ex1 = explode ("Draw date:", $desc ); 
+
+$ex2 = explode ("Jackpot:", $ex1[1] ); 
+
+$ex3 = explode ("<br /><a", $ex2[1] );
+
+
+$title = (string) $entry->title ; 
+$enddate = $ex2[0] ; 
+$amount = trim($ex3[0]);
+
+$exdate = explode ("<br />",$enddate); 
+$enddate = $exdate[0] ; 
+
+$newstr = $title . $enddate.$amount  ; 
+
+$explodedate = explode ("-",$enddate); 
+$year = trim($explodedate[0]);
+$month = trim($explodedate[1]);
+$day = trim($explodedate[2]);
+
+if ($lot_id == 2) {
+$afflink = 'http://www.lottoexposed.com/usamega1';
+} else if ($lot_id == 3) {
+$afflink = 'http://www.lottoexposed.com/uspowerball1';
+} else if ($lot_id == 4) {
+$afflink = 'http://www.lottoexposed.com/superlotto1';
+} else if ($lot_id == 5) {
+$afflink = 'http://www.lottoexposed.com/nylotto1';
+} else if ($lot_id == 6) {
+$afflink = 'http://www.lottoexposed.com/FloridaLotto1';
+} else if ($lot_id == 8) {
+$afflink = 'http://www.lottoexposed.com/euromillion1';
+} else if ($lot_id == 9) {
+$afflink = 'http://www.lottoexposed.com/lotto6491';
+} else if ($lot_id == 11) {
+$afflink = 'http://www.lottoexposed.com/megasena1';
+} else if ($lot_id == 12) {
+$afflink = 'http://www.lottoexposed.com/elgordo1';
+} else if ($lot_id == 13) {
+$afflink = 'http://www.lottoexposed.com/OzLotteries1';
+} else if ($lot_id == 14) {
+$afflink = 'http://www.lottoexposed.com/OzPowerball1';
+} else if ($lot_id == 16) {
+$afflink = 'http://www.lottoexposed.com/uklottery1';
+} else if ($lot_id == 17) {
+$afflink = 'http://www.lottoexposed.com/francelotto1';
+} else if ($lot_id == 18) {
+$afflink = 'http://www.lottoexposed.com/superenalotto1';
+} else if ($lot_id == 19) {
+$afflink = 'http://www.lottoexposed.com/Primitiva1';
+} else if ($lot_id == 20) {
+$afflink = 'http://www.lottoexposed.com/hotlotto1';
+} else if ($lot_id == 21) {
+$afflink = 'http://www.lottoexposed.com/irishlotto1';
+} else if ($lot_id == 22) {
+$afflink = 'http://www.lottoexposed.com/indiana1';
+} else if ($lot_id == 23) {
+$afflink = 'http://www.lottoexposed.com/Thunderball1';
+} else if ($lot_id == 24) {
+$afflink = 'http://www.lottoexposed.com/eurojackpot1';
+} else if ($lot_id == 25) {
+$afflink = 'http://www.lottoexposed.com/euromillionUK';
+} else {
+$afflink = 'http://www.lottoexposed.com/PlayHugeLottos1';
+}
+
+$lottologo = 'http://feeds.lottoelite.com/iframe/logos/'.$lot_id.'.png';
+$jpdate = $month."-".$day."-".$year." 23:59:00";
+
+$lottodata[$i]['afflink'] = $afflink;
+$lottodata[$i]['logo'] = $lottologo;
+$lottodata[$i]['title'] = $title;
+$lottodata[$i]['amount'] = $amount;
+$lottodata[$i]['jpdate'] = $jpdate;
+
+$i++; }
+}
+
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+body {
+font-family:"Trebuchet MS", Verdana;
+}
+.clear { /* generic container (i.e. div) for floating buttons */
+    overflow: hidden;
+    width: 100%;
+}
+
+a.button {
+    background: #231f20;
+    display: block;
+    height: 24px;
+    width:83px;
+    text-align: center;
+    margin:0 auto;
+    color:#fff;
+    font-size:12px;
+    font-family:Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 23px;
+}
+.jackpots_box {
+    background:url("/wp-content/themes/lottoexposed/images/jackpots_box.png");
+    padding:2px 4px;
+    border:1px solid #e0dfdd;
+    width:640px;
+    box-shadow:0 4px 7px #ccc;
+}
+.jackpots_box:after {
+    content:".";
+    display:block;
+    height:0;
+    line-height: 0;
+    clear:both;
+}
+.jackpots_box_header {
+    background: #041563;
+    height: 44px;
+    color:#fff;
+    padding:0 8px;
+    line-height: 43px;
+    text-transform: uppercase;
+    margin:0 0 24px;
+    font-size:20px;
+    position: relative;
+}
+.jackposts_bag {
+    width:89px;
+    height:68px;
+    background:url("/wp-content/themes/lottoexposed/images/money_bag_icon.png") right top no-repeat;
+    position: absolute;
+    right: -2px;
+    top: -12px;
+}
+.sidebar-jackpot {
+    float:left;
+    width:210px;
+    text-align: center;
+    background:url("/wp-content/themes/lottoexposed/images/sidebar_jackpot_border.png") left 10px no-repeat;
+    height:194px;
+}
+.jackpots_box .sidebar-jackpot:first-child {
+    background: none !important;
+}
+a.lottery_link {
+    color:#bf2024;
+    text-decoration:none;
+    font-size:16px;
+    text-decoration: none;
+    display: block;
+    height: 24px;
+    margin: 4px 0 0;
+}
+a.lottery_link:hover {
+    text-decoration: underline;
+}
+.lottery_amount {
+    color:#0f4a8c;
+    font-size:23px;
+    font-weight:bold;
+}
+.countdownTimer {
+    color:#5590d4;
+    font-size: 15px;
+    font-weight: bold;
+    height: 28px;
+    margin: 4px 0 0;
+}
+</style>
+
+<script type="text/javascript">
+function DateStringToDateObject(e){var t=null;try{t=new Date(e);if(t=="Invalid Date")throw new Error("Invalid Date Format: "+e);return t}catch(n){var r=e.split(" ");var i=r[0].split(/[-\/]/);var s;if(r.length>1)s=r[1].split(":");var o=null;var u=null;var a=null;var f=null;var l=null;var c=null;if(i.length>0){o=parseInt(i[0],10)-1;u=parseInt(i[1],10);a=parseInt(i[2],10)}if(s&&s.length>0){f=parseInt(s[0],10);l=parseInt(s[1],10);c=parseInt(s[2],10)}t=new Date(a,o,u,f,l,c);return t}}function CreateCountdown(e,t,n,r,i){var s="{days} days {hours} hours {minutes} minutes {seconds} seconds";if(i&&typeof i=="string"&&i.length>0)s=i;var o="countdownDiv";if(r&&typeof r=="string"&&r.length>0)o=r;var u=new Date;var a=DateStringToDateObject(t);if(u.getTime()>=a.getTime()){return false}if(n){var f=document.createElement("div");f.id=o;f.className="countdownContainer";f.endDateMilliseconds=a.getTime();f.timerTemplateHtml=s;var l=document.createElement("div");l.id=o+"-title";l.className="countdownTitle";l.innerHTML=e;f.appendChild(l);var c=document.createElement("div");c.id=o+"-timer";c.className="countdownTimer";f.appendChild(c);f.interval=setInterval('UpdateTimer(document.getElementById("'+o+'"));',1e3);n.appendChild(f)}}function UpdateTimer(e){var t=new Date;if(e&&e.endDateMilliseconds-t.getTime()>0){var n=e.id.split("-")[0];var r=document.getElementById(n+"-timer");var i="";var s=e.endDateMilliseconds-t.getTime();var o=1e3;var u=60*o;var a=60*u;var f=24*a;var l=Math.floor(s/f);var c=s%f;var h=l*24;var p=Math.floor(c/a)+h;c=c%a;var d=Math.floor(c/u);c=c%u;var v=Math.floor(c/o);i=e.timerTemplateHtml;i=i.replace("{days}",PadString(new String(l),2,"0"));i=i.replace("{hours}",PadString(new String(p),2,"0"));i=i.replace("{minutes}",PadString(new String(d),2,"0"));i=i.replace("{seconds}",PadString(new String(v),2,"0"));r.innerHTML=i}else{clearInterval(e.interval);e.parentNode.removeChild(e)}}function AddCountdownTester(e,t){var n="ctTester";if(document.getElementById(n))return;var r="-";var i=":";var s=59;var o=new Date;var u=o.getSeconds()+e;if(u>s){o.setMinutes(o.getMinutes()+1);u=0+(u-s)}o.setSeconds(u);var a=MDYHIS_DateString(o);var f=!t?document.body:t;CreateCountdown("... Tester will disappear in ...",a,f,n,"{seconds} seconds")}function MDYHIS_DateString(e){var t=59;var n=59;var r=23;var i="-";var s=":";var o=e;var u=o.getMonth()+1;var a=o.getDate();var f=o.getFullYear();var l=o.getHours();var c=o.getMinutes();var h=o.getSeconds();return u+i+a+i+f+" "+l+s+c+s+h}function PadString(e,t,n){var r=t-e.length;if(r<=0)return e;var i="";for(var s=1;s<=r;s++)i+=n;return i+e}
+
+function timers()
+{
+<?php
+for($i = 1; $i < 4; $i++) {
+echo "CreateCountdown('', '".$lottodata[$i]['jpdate']."', document.getElementById('timers".$i."'), 'timer".$i."', '{hours}:{minutes}:{seconds}');";
+}
+?>
+}
+</script>
+	
+</head>
+<body onload="timers();">
+<div class="jackpots_box">
+    <div class="jackpots_box_header">Lottery jackpots<div class="jackposts_bag"></div></div>
+<?php for($i = 1; $i < 4; $i++) { ?>
+
+<div class="sidebar-jackpot">
+<div><a href="<?php echo $lottodata[$i]['afflink']; ?>"><img src="<?php echo $lottodata[$i]['logo']; ?>" border="0" /></a></div>
+<a href="<?php echo $lottodata[$i]['afflink']; ?>" class="lottery_link"><?php echo
+    $lottodata[$i]['title']; ?></a>
+<div class="lottery_amount"><?php echo $lottodata[$i]['amount']; ?></div>
+
+<div id="timers<?php echo $i; ?>"></div>
+
+<a class="button" href="<?php echo $lottodata[$i]['afflink']; ?>" onclick="this.blur();" target="_blank"><?=$btntext;?></a>
+
+</div>
+
+<?php } ?>
+</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+AuthType Basic
+AuthName "Password Protected Area"
+AuthUserFile "/home/lottoexp/.htpasswds/public_html/wp-admin/passwd"
+require valid-user
+
+<Files admin-ajax.php>
+    Order allow,deny
+    Allow from all
+    Satisfy any 
+</Files>

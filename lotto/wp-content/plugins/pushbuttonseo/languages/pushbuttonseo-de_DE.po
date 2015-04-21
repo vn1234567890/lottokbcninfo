@@ -1,0 +1,791 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PushButtonSEO German v1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-06-20 18:16-0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Daniel Ramdenee <support@pushbuttonseo.com>\n"
+"Language-Team: PushButtonSEO.com <support@pushbuttonseo.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: D:\\usr\\local\\Apache2\\htdocs\\pushbutton.com\\public_html\\wp-content\\plugins\\\n"
+"X-Poedit-SearchPath-0: pushbuttonseo\n"
+
+#: pushbuttonseo/pbseo-derived-const.php:63
+msgid "Wordpress version 3.0 or higher required"
+msgstr "Wordpress Version 3.0 oder höher erforderlich"
+
+#: pushbuttonseo/pbseo-derived-const.php:124
+msgid "PCRE is not compiled with UTF-8 support"
+msgstr "PCRE wurde nicht mit UTF-8-Unterstützung übersetzt"
+
+#: pushbuttonseo/pbseo-derived-const.php:190
+msgid "Reserved"
+msgstr "Reserviert"
+
+#: pushbuttonseo/pbseo-derived-const.php:191
+msgid "Links"
+msgstr "Links"
+
+#: pushbuttonseo/pbseo-derived-const.php:192
+msgid "Content"
+msgstr "Inhalt"
+
+#: pushbuttonseo/pbseo-derived-const.php:193
+#: pushbuttonseo/pbseo-meta.php:268
+msgid "Video"
+msgstr "Video"
+
+#: pushbuttonseo/pbseo-derived-const.php:194
+msgid "Optimizer"
+msgstr "Optimierer"
+
+#: pushbuttonseo/pbseo-derived-const.php:195
+msgid "Social"
+msgstr "Social"
+
+#: pushbuttonseo/pbseo-derived-const.php:200
+msgid "LOW"
+msgstr "NIEDRIG"
+
+#: pushbuttonseo/pbseo-derived-const.php:201
+msgid "MEDIUM"
+msgstr "MEDIUM"
+
+#: pushbuttonseo/pbseo-derived-const.php:202
+msgid "HIGH"
+msgstr "HOCH"
+
+#: pushbuttonseo/pbseo-derived-const.php:203
+msgid "CRITICAL"
+msgstr "KRITISCH"
+
+#: pushbuttonseo/pbseo-derived-const.php:208
+msgid "Please enter your activation code in the plugin general settings screen to enable"
+msgstr "Bitte gebe Deinen Aktivierungscode in den allgemeinen Einstellungen des Plugins ein, um es zu aktivieren!"
+
+#: pushbuttonseo/pbseo-derived-const.php:223
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: pushbuttonseo/pbseo-derived-const.php:224
+msgid "Small"
+msgstr "klein"
+
+#: pushbuttonseo/pbseo-derived-const.php:225
+msgid "Medium"
+msgstr "medium"
+
+#: pushbuttonseo/pbseo-derived-const.php:226
+msgid "Large"
+msgstr "groß"
+
+#: pushbuttonseo/pbseo-functions-wp.php:30
+msgid "Incoming search database table could not be created"
+msgstr "Eingehende Suche Datenbank-Tabelle konnte nicht erstellt werden"
+
+#: pushbuttonseo/pbseo-functions-wp.php:74
+#: pushbuttonseo/pbseo-settings.php:29
+#: pushbuttonseo/pbseo-settings.php:189
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: pushbuttonseo/pbseo-functions-wp.php:75
+#: pushbuttonseo/pbseo-settings.php:454
+msgid "Training and Support"
+msgstr "Schulung und Support"
+
+#: pushbuttonseo/pbseo-functions-wp.php:161
+msgid "Close"
+msgstr "schließen"
+
+#: pushbuttonseo/pbseo-functions-wp.php:204
+msgid "Access denied"
+msgstr "Zugriff verweigert"
+
+#: pushbuttonseo/pbseo-functions-wp.php:205
+#: pushbuttonseo/pbseo-mod-content.php:582
+#: pushbuttonseo/pbseo-mod-content.php:592
+#: pushbuttonseo/pbseo-mod-content.php:824
+#: pushbuttonseo/pbseo-mod-content.php:834
+#: pushbuttonseo/pbseo-mod-content.php:1203
+#: pushbuttonseo/pbseo-mod-content.php:1213
+#: pushbuttonseo/pbseo-mod-content.php:1487
+#: pushbuttonseo/pbseo-mod-content.php:1497
+#: pushbuttonseo/pbseo-mod-content.php:1730
+#: pushbuttonseo/pbseo-mod-content.php:1740
+msgid "Denied"
+msgstr "verweigert"
+
+#: pushbuttonseo/pbseo-functions-wp.php:293
+#: pushbuttonseo/pbseo-functions-wp.php:392
+msgid "Remote response is unexpected content type"
+msgstr "Remote ist eine unerwartete Eingabe"
+
+#: pushbuttonseo/pbseo-functions-wp.php:293
+#: pushbuttonseo/pbseo-functions-wp.php:297
+#: pushbuttonseo/pbseo-functions-wp.php:392
+#: pushbuttonseo/pbseo-functions-wp.php:396
+msgid "Expected"
+msgstr "erwartet"
+
+#: pushbuttonseo/pbseo-functions-wp.php:293
+#: pushbuttonseo/pbseo-functions-wp.php:392
+msgid "recieved"
+msgstr "erhalten"
+
+#: pushbuttonseo/pbseo-functions-wp.php:297
+#: pushbuttonseo/pbseo-functions-wp.php:396
+msgid "Remote response is unknown content type"
+msgstr "Remote ist eine unbekannte Eingabe"
+
+#: pushbuttonseo/pbseo-functions-wp.php:318
+#: pushbuttonseo/pbseo-functions-wp.php:417
+#: pushbuttonseo/pbseo-functions.php:47
+msgid "Unspecified error"
+msgstr "unbekannter Fehler"
+
+#: pushbuttonseo/pbseo-functions.php:55
+msgid "Error"
+msgstr "Fehler"
+
+#: pushbuttonseo/pbseo-functions.php:90
+msgid "Log File Created"
+msgstr "Protokolldatei erstellt"
+
+#: pushbuttonseo/pbseo-functions.php:115
+msgid "Debug File Created"
+msgstr "Debug Datei erstellt"
+
+#: pushbuttonseo/pbseo-functions.php:207
+msgid "Failed to retrieve local file"
+msgstr "Lokale Datei konnte nicht aufgerufen werden"
+
+#: pushbuttonseo/pbseo-functions.php:213
+msgid "Failed to locate local file"
+msgstr "Lokale Datei konnte nicht gefunden werden"
+
+#: pushbuttonseo/pbseo-functions.php:272
+msgid "Arabic"
+msgstr "Arabisch"
+
+#: pushbuttonseo/pbseo-functions.php:273
+msgid "Czech"
+msgstr "Tschechisch"
+
+#: pushbuttonseo/pbseo-functions.php:275
+msgid "Dutch"
+msgstr "Holländer"
+
+#: pushbuttonseo/pbseo-functions.php:276
+#: pushbuttonseo/pbseo-functions.php:277
+#: pushbuttonseo/pbseo-functions.php:278
+#: pushbuttonseo/pbseo-functions.php:279
+msgid "English"
+msgstr "Englisch"
+
+#: pushbuttonseo/pbseo-functions.php:281
+msgid "French"
+msgstr "Französisch"
+
+#: pushbuttonseo/pbseo-functions.php:282
+msgid "German"
+msgstr "Deutsch"
+
+#: pushbuttonseo/pbseo-functions.php:283
+msgid "Greek"
+msgstr "Griechisch"
+
+#: pushbuttonseo/pbseo-functions.php:284
+msgid "Hebrew"
+msgstr "Hebräisch"
+
+#: pushbuttonseo/pbseo-functions.php:285
+msgid "Hindi"
+msgstr "Hindi"
+
+#: pushbuttonseo/pbseo-functions.php:286
+msgid "Italian"
+msgstr "Italienisch"
+
+#: pushbuttonseo/pbseo-functions.php:287
+msgid "Japanese"
+msgstr "Japanisch"
+
+#: pushbuttonseo/pbseo-functions.php:288
+msgid "Korean"
+msgstr "Koreanisch"
+
+#: pushbuttonseo/pbseo-functions.php:289
+msgid "Norwegian"
+msgstr "Norwegisch"
+
+#: pushbuttonseo/pbseo-functions.php:290
+msgid "Polish"
+msgstr "polnisch"
+
+#: pushbuttonseo/pbseo-functions.php:291
+msgid "Portugese"
+msgstr "Portugiesisch"
+
+#: pushbuttonseo/pbseo-functions.php:293
+msgid "Russian"
+msgstr "Russisch"
+
+#: pushbuttonseo/pbseo-functions.php:294
+msgid "Spanish"
+msgstr "Spanisch"
+
+#: pushbuttonseo/pbseo-functions.php:295
+msgid "Swedish"
+msgstr "Schwedisch"
+
+#: pushbuttonseo/pbseo-functions.php:296
+msgid "Thai"
+msgstr "thailändisch"
+
+#: pushbuttonseo/pbseo-functions.php:297
+msgid "Turkish"
+msgstr "Türkisch"
+
+#: pushbuttonseo/pbseo-functions.php:423
+msgid "Failed to contact verification server"
+msgstr "Es konnte keine Verbindung mit dem Verifizierungsserver aufgenommen werden"
+
+#: pushbuttonseo/pbseo-functions.php:424
+#: pushbuttonseo/pbseo-functions.php:427
+#: pushbuttonseo/pbseo-functions.php:464
+#: pushbuttonseo/pbseo-functions.php:467
+msgid "attempt"
+msgstr "Versuch"
+
+#: pushbuttonseo/pbseo-functions.php:435
+#: pushbuttonseo/pbseo-functions.php:474
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: pushbuttonseo/pbseo-functions.php:443
+msgid "Code verified, plugin has been activated"
+msgstr "Code wurde überprüft, das Plugin ist nun aktiv"
+
+#: pushbuttonseo/pbseo-functions.php:463
+msgid "Failed to contact mc server"
+msgstr "Der MC-Server konnte nicht kontaktiert werden"
+
+#: pushbuttonseo/pbseo-functions.php:489
+msgid "Failed to extract data package"
+msgstr "Datenpakete konnten nicht extrahiert werden"
+
+#: pushbuttonseo/pbseo-functions.php:1428
+msgid "SEO Rating"
+msgstr "SEO-Einschätzung"
+
+#: pushbuttonseo/pbseo-functions.php:1445
+msgid "SEO Target"
+msgstr "SEO-Ziel"
+
+#: pushbuttonseo/pbseo-functions.php:1464
+msgid "Not Rated"
+msgstr "nicht bewertet"
+
+#: pushbuttonseo/pbseo-meta.php:66
+#: pushbuttonseo/pbseo-meta.php:103
+msgid "Analyze"
+msgstr "analysieren"
+
+#: pushbuttonseo/pbseo-meta.php:67
+msgid "Report"
+msgstr "Bericht"
+
+#: pushbuttonseo/pbseo-meta.php:68
+msgid "Keywords"
+msgstr "Schlüsselwörter"
+
+#: pushbuttonseo/pbseo-meta.php:91
+msgid "Primary Keyword"
+msgstr "Hauptschlüsselwort"
+
+#: pushbuttonseo/pbseo-meta.php:176
+msgid "SEO Targets"
+msgstr "SEO-Ziele"
+
+#: pushbuttonseo/pbseo-meta.php:177
+msgid "Authority"
+msgstr "Autorität"
+
+#: pushbuttonseo/pbseo-meta.php:211
+msgid "Assign as SEO Target"
+msgstr "Als SEO-Ziel ausweisen"
+
+#: pushbuttonseo/pbseo-meta.php:216
+msgid "Please go to plugin settings and enter unlock code provided in training video"
+msgstr "Bitte gehe zu den Plugineinstellungen und gebe den Freischaltcode ein, der im Trainings-Video zur Verfügung gestellt wurde"
+
+#: pushbuttonseo/pbseo-meta.php:230
+#: pushbuttonseo/pbseo-meta.php:293
+#: pushbuttonseo/pbseo-meta.php:323
+#: pushbuttonseo/pbseo-meta.php:353
+#: pushbuttonseo/pbseo-meta.php:381
+msgid "Search Keyword"
+msgstr "Schlüsselwortsuche"
+
+#: pushbuttonseo/pbseo-meta.php:242
+#: pushbuttonseo/pbseo-meta.php:305
+#: pushbuttonseo/pbseo-meta.php:335
+#: pushbuttonseo/pbseo-meta.php:365
+#: pushbuttonseo/pbseo-meta.php:393
+msgid "Search"
+msgstr "suchen"
+
+#: pushbuttonseo/pbseo-meta.php:267
+msgid "Images"
+msgstr "Bilder"
+
+#: pushbuttonseo/pbseo-meta.php:269
+msgid "Blogs"
+msgstr "Blogs"
+
+#: pushbuttonseo/pbseo-meta.php:270
+msgid "News"
+msgstr "Nachrichten"
+
+#: pushbuttonseo/pbseo-mod-content.php:90
+#: pushbuttonseo/pbseo-search.20120503.php:61
+msgid "Incoming Searches"
+msgstr "Einkommende Suche"
+
+#: pushbuttonseo/pbseo-mod-content.php:172
+msgid "Related Searches"
+msgstr "Verwandte Suchbegriffe"
+
+#: pushbuttonseo/pbseo-mod-content.php:225
+#: pushbuttonseo/pbseo-mod-content.php:347
+#: pushbuttonseo/pbseo-mod-content.php:672
+#: pushbuttonseo/pbseo-mod-content.php:673
+#: pushbuttonseo/pbseo-mod-content.php:894
+#: pushbuttonseo/pbseo-mod-content.php:1271
+#: pushbuttonseo/pbseo-mod-content.php:1570
+#: pushbuttonseo/pbseo-mod-content.php:1571
+#: pushbuttonseo/pbseo-mod-content.php:1815
+#: pushbuttonseo/pbseo-mod-content.php:1816
+msgid "Error trying to retrieve response from remote service"
+msgstr "Fehler beim Versuch eine Antwort vom Remote-Service abzurufen"
+
+#: pushbuttonseo/pbseo-mod-content.php:250
+#: pushbuttonseo/pbseo-mod-content.php:369
+#: pushbuttonseo/pbseo-mod-content.php:685
+#: pushbuttonseo/pbseo-mod-content.php:686
+#: pushbuttonseo/pbseo-mod-content.php:1293
+#: pushbuttonseo/pbseo-mod-content.php:1583
+#: pushbuttonseo/pbseo-mod-content.php:1584
+#: pushbuttonseo/pbseo-mod-content.php:1828
+#: pushbuttonseo/pbseo-mod-content.php:1829
+msgid "Error trying to parse response from remote service"
+msgstr "Fehler beim Versuch die Antwort vom Remote-Service zu analysieren"
+
+#: pushbuttonseo/pbseo-mod-content.php:378
+msgid "Failed to determine item count in XML document"
+msgstr "Bestimmung der Dateneinheiten in den XML-Dokumenten fehlgeschlagen"
+
+#: pushbuttonseo/pbseo-mod-content.php:551
+msgid "Related Keywords"
+msgstr "ähnliche Schlüsselwörter"
+
+#: pushbuttonseo/pbseo-mod-content.php:614
+#: pushbuttonseo/pbseo-mod-content.php:857
+#: pushbuttonseo/pbseo-mod-content.php:1227
+#: pushbuttonseo/pbseo-mod-content.php:1519
+#: pushbuttonseo/pbseo-mod-content.php:1762
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:127
+#: pushbuttonseo/pbseo-mod-optimizer.php:127
+msgid "No keyword found"
+msgstr "es wurde kein Schlüsselwort gefunden"
+
+#: pushbuttonseo/pbseo-mod-content.php:622
+#: pushbuttonseo/pbseo-mod-content.php:865
+#: pushbuttonseo/pbseo-mod-content.php:1235
+#: pushbuttonseo/pbseo-mod-content.php:1527
+#: pushbuttonseo/pbseo-mod-content.php:1770
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:135
+#: pushbuttonseo/pbseo-mod-optimizer.php:135
+msgid "Post ID not found"
+msgstr "Artikel-ID wurde nicht gefunden"
+
+#: pushbuttonseo/pbseo-mod-content.php:636
+#: pushbuttonseo/pbseo-mod-content.php:1542
+#: pushbuttonseo/pbseo-mod-content.php:1785
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:149
+#: pushbuttonseo/pbseo-mod-optimizer.php:149
+msgid "Illegal keyword"
+msgstr "unzulässiges Schlüsselwort"
+
+#: pushbuttonseo/pbseo-mod-content.php:696
+#: pushbuttonseo/pbseo-mod-content.php:697
+#: pushbuttonseo/pbseo-mod-content.php:1594
+#: pushbuttonseo/pbseo-mod-content.php:1595
+#: pushbuttonseo/pbseo-mod-content.php:1839
+#: pushbuttonseo/pbseo-mod-content.php:1840
+msgid "Server responded with an error"
+msgstr "Server antwortete mit einem Fehler"
+
+#: pushbuttonseo/pbseo-mod-content.php:760
+#: pushbuttonseo/pbseo-mod-content.php:1670
+#: pushbuttonseo/pbseo-mod-content.php:1923
+#: pushbuttonseo/pbseo-mod-links.php:142
+msgid "No results found"
+msgstr "keine Ergebnisse gefunden"
+
+#: pushbuttonseo/pbseo-mod-content.php:781
+#: pushbuttonseo/pbseo-mod-content.php:1691
+#: pushbuttonseo/pbseo-mod-content.php:1944
+msgid "Information from"
+msgstr "Informationen aus"
+
+#: pushbuttonseo/pbseo-mod-content.php:846
+msgid "Please provide your Flickr API key in the plugin General Settings page"
+msgstr "Bitte gebe den Flickr-API-Schlüssel unter allgemeine Einstellungen des Plugins ein"
+
+#: pushbuttonseo/pbseo-mod-content.php:1078
+msgid "Images from"
+msgstr "Bilder von"
+
+#: pushbuttonseo/pbseo-mod-content.php:1448
+msgid "Video from"
+msgstr "Video von"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:19
+msgid "Permalink"
+msgstr "Permalink"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:30
+msgid "Keep your permalinks as short as possible with your keyword or partial keyword at or near the beginning"
+msgstr "Halte Deine Permalinks so kurz wie möglich und zwar mit dem genauen Schlüsselwort am oder in der Nähe des Anfangs"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:41
+msgid "META Title"
+msgstr "META Titel"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:52
+msgid "Ensure your exact keyword appears at or near the beginning of the META title"
+msgstr "Stelle sicher, das Dein genaues Schlüsselwort am oder in der Nähe des Anfangs des META Titels erscheint!"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:63
+msgid "META Description"
+msgstr "META Beschreibung"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:74
+msgid "Use text that encourages people to click on your search listing and use your exact keyword and other words related to it"
+msgstr "Verwende einen Text, der Menschen veranlasst, auf Dein Suchergebnis zu klicken und benutze das exakte oder verwandte Schlüsselwort"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:106
+msgid "Headings"
+msgstr "Überschriften"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:117
+msgid "Ensure your keyword or a variation appears in your H1 title (Usually your post title but some themes use H2 sub-heading for the post title)"
+msgstr "Stelle sicher, dass Dein Schlüsselwort oder eine Abwandlung in Deinem Artikel oder dem Seitentitel auftaucht"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:128
+msgid "Sub Headings"
+msgstr "Unterüberschriften"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:135
+msgid "Add sub-headings containing your keyword or variations (H2 or H3 tags)"
+msgstr "Füge Unterüberschriften (H2 - H3) mit Deinem Schlüsselwort oder einer Abwandlung hinzu"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:150
+msgid "Internal Links"
+msgstr "interne Links"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:161
+msgid "Use internal links preferably in the main content with anchor text that matches or relates to your keyword"
+msgstr "Verwende interne Links vorzugsweise im Hauptinhalt mit einem Ankertext, der zu Deinem Schlüsselwort passt, oder sich darauf bezieht"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:172
+msgid "Outbound Links"
+msgstr "ausgehende Links"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:183
+msgid "Use outbound links preferably in the main content with anchor text that matches or relates to your keyword"
+msgstr "Verwende ausgehende Links vorzugsweise im Hauptinhalt mit einem Ankertext, der zu Deinem Schlüsselwort passt, oder sich darauf bezieht"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:215
+msgid "Image ALT tags"
+msgstr "Bild ALT-Tags"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:222
+msgid "Add your keyword to the ALT tag of an image"
+msgstr "Füge Dein Schlüsselwort zum ALT-Tag eines Bildes hinzu"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:237
+msgid "Video Embed"
+msgstr "Video einbetten"
+
+#: pushbuttonseo/pbseo-mod-optimizer-config.php:244
+msgid "Embed a video in your main content, this helps keep visitors on your page for longer"
+msgstr "Wenn Du ein Video in den Hauptinhalt einbettest, hilft das, Besucher auf Deiner Seite zu halten"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:43
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:44
+#: pushbuttonseo/pbseo-mod-optimizer.php:43
+#: pushbuttonseo/pbseo-mod-optimizer.php:44
+msgid "Failed to include optimizer configuration library"
+msgstr "Die Optimierer-Bibliothekskonfiguration konnte nicht einbezogen werden"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:111
+#: pushbuttonseo/pbseo-mod-optimizer.php:111
+msgid "Could not render content"
+msgstr "Inhalt konnte nicht wiedergegeben werden"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:119
+#: pushbuttonseo/pbseo-mod-optimizer.php:119
+msgid "No content found"
+msgstr "Es konnte kein Inhalt gefunden werden"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:157
+#: pushbuttonseo/pbseo-mod-optimizer.php:157
+#, php-format
+msgid "Keyword must be at least %d characters in length"
+msgstr "Stichwort muss mindestens %d Zeichen lang sein"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:362
+#: pushbuttonseo/pbseo-mod-optimizer.php:362
+msgid "Noindex directive set"
+msgstr "\"noindex\" Anweisung festgelegt"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:363
+#: pushbuttonseo/pbseo-mod-optimizer.php:363
+msgid "This page will not be indexed by the search engines because it contains the robots directive noindex"
+msgstr "Diese Seite wird von den Suchmaschinen nicht indexiert werden, weil es die Robots-Anweisung enthält \"noindex\""
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:372
+#: pushbuttonseo/pbseo-mod-optimizer.php:372
+#, php-format
+msgid "Article is less than %d words"
+msgstr "Artikel ist kleiner als %d Wörter"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:373
+#: pushbuttonseo/pbseo-mod-optimizer.php:373
+#, php-format
+msgid "Quality articles should be %d words or more in length"
+msgstr "Qualitative Artikel sollten mehr %d Wörter haben oder noch länger sein"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:405
+#: pushbuttonseo/pbseo-mod-optimizer.php:405
+msgid "PASS"
+msgstr "WEITER"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:406
+#: pushbuttonseo/pbseo-mod-optimizer.php:406
+msgid "PARTIAL"
+msgstr "TEILWEISE"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:407
+#: pushbuttonseo/pbseo-mod-optimizer.php:407
+msgid "FAIL"
+msgstr "FEHLGESCHLAGEN"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:466
+#: pushbuttonseo/pbseo-mod-optimizer.php:466
+msgid "Priority"
+msgstr "Priorität"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:581
+#: pushbuttonseo/pbseo-mod-optimizer.php:583
+msgid "Suggestions"
+msgstr "Vorschläge"
+
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1628
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1642
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1656
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1693
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1709
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1760
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1769
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1802
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1811
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1898
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1933
+#: pushbuttonseo/pbseo-mod-optimizer.20120619.1121.php:1947
+#: pushbuttonseo/pbseo-mod-optimizer.php:1633
+#: pushbuttonseo/pbseo-mod-optimizer.php:1647
+#: pushbuttonseo/pbseo-mod-optimizer.php:1661
+#: pushbuttonseo/pbseo-mod-optimizer.php:1698
+#: pushbuttonseo/pbseo-mod-optimizer.php:1714
+#: pushbuttonseo/pbseo-mod-optimizer.php:1765
+#: pushbuttonseo/pbseo-mod-optimizer.php:1774
+#: pushbuttonseo/pbseo-mod-optimizer.php:1807
+#: pushbuttonseo/pbseo-mod-optimizer.php:1816
+#: pushbuttonseo/pbseo-mod-optimizer.php:1871
+#: pushbuttonseo/pbseo-mod-optimizer.php:1901
+#: pushbuttonseo/pbseo-mod-optimizer.php:1915
+msgid "Missing or empty"
+msgstr "Fehlt oder ist leer"
+
+#: pushbuttonseo/pbseo-settings.php:32
+msgid "Settings updated"
+msgstr "Einkommende Suche"
+
+#: pushbuttonseo/pbseo-settings.php:56
+msgid "General"
+msgstr "Allgemein"
+
+#: pushbuttonseo/pbseo-settings.php:190
+#: pushbuttonseo/pbseo-settings.php:260
+#: pushbuttonseo/pbseo-settings.php:342
+#: pushbuttonseo/pbseo-settings.php:383
+msgid "Remember to click the Save Changes button to apply your changes"
+msgstr "Denke daran, die Schaltfläche \"Änderungen speichern\" zu betätigen, um Deine Änderungen zu übernehmen"
+
+#: pushbuttonseo/pbseo-settings.php:196
+msgid "You must enter your activation code to enable the plugin"
+msgstr "Bitte gebe Deinen Aktivierungscode ein, um das Plugin zu aktivieren"
+
+#: pushbuttonseo/pbseo-settings.php:197
+msgid "Your activation code was sent to you by email when you downloaded the plugin"
+msgstr "Der Aktivierungscode wurde Dir per E-Mail zugeschickt, als Du das Plugin heruntergeladen hast"
+
+#: pushbuttonseo/pbseo-settings.php:198
+msgid "If you did not receive your activation code or have lost it, please contact customer support for assistance"
+msgstr "Wenn Du Deinen Aktivierungscode nicht erhalten hast oder ihn verloren haben solltest, kontaktiere bitte den Kunden-Support"
+
+#: pushbuttonseo/pbseo-settings.php:212
+msgid "Activation Code"
+msgstr "Aktivierungscode"
+
+#: pushbuttonseo/pbseo-settings.php:215
+msgid "Please enter the Activation Code sent to you by email and click the Save Changes button"
+msgstr "Bitte gebe den Aktivierungscode, den Du per E-Mail erhalten hast ein und betätige die Schaltfläche \"Änderungen speichern\""
+
+#: pushbuttonseo/pbseo-settings.php:216
+msgid "This code is 36 characters in length"
+msgstr "Dieser Code ist 36 Zeichen lang"
+
+#: pushbuttonseo/pbseo-settings.php:217
+msgid "Please enter the entire code including dashes"
+msgstr "Bitte gebe den gesamten Code mit Bindestrichen ein"
+
+#: pushbuttonseo/pbseo-settings.php:219
+msgid "Delete code and click Save Changes button to deactivate the license on this domain"
+msgstr "Lösche den Code und betätige die \"Änderungen speichern\" Schaltfläche, um die Lizenz auf dieser Domain zu deaktivieren"
+
+#: pushbuttonseo/pbseo-settings.php:220
+msgid "This will allow you to use the license on a different domain"
+msgstr "Dies ermöglicht es Dir, die Lizenz auf einer anderen Domain zu verwenden"
+
+#: pushbuttonseo/pbseo-settings.php:244
+#: pushbuttonseo/pbseo-settings.php:325
+#: pushbuttonseo/pbseo-settings.php:366
+#: pushbuttonseo/pbseo-settings.php:441
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: pushbuttonseo/pbseo-settings.php:259
+msgid "Optimizer Settings"
+msgstr "Optimirungseinstellungen"
+
+#: pushbuttonseo/pbseo-settings.php:271
+msgid "Enable In-page Warnings"
+msgstr "Aktiviere Warnungen innerhalb der Seite"
+
+#: pushbuttonseo/pbseo-settings.php:272
+msgid "Enable in-screen optimization warnings and feedback"
+msgstr "Aktiviere Einblendungen für Optimierungswarnungen und Rückmeldungen"
+
+#: pushbuttonseo/pbseo-settings.php:290
+msgid "Disable Autosave Warnings"
+msgstr "Deaktivieren Autosave Warnungen"
+
+#: pushbuttonseo/pbseo-settings.php:291
+msgid "Disable autosave warning"
+msgstr "Autosave Warnung deaktivieren"
+
+#: pushbuttonseo/pbseo-settings.php:291
+msgid "This only disables the warning message not the autosave process itself"
+msgstr "Dadurch wird nur die Warnmeldung nicht die Autosave-Prozess selbst deaktiviert"
+
+#: pushbuttonseo/pbseo-settings.php:308
+msgid "Proximity Matching Threshold"
+msgstr "Ähnlichkeitsübereinstimmender Schwellenwert"
+
+#: pushbuttonseo/pbseo-settings.php:309
+msgid "Enable partial keyword matching based on the order and proximity of words in a keyword phrase"
+msgstr "Aktiviere ein teilweise passendes Schlüsselwort entsprechend der Reihenfolge und Verwandtschaft der Wörter in einer Schlüsselwortphrase"
+
+#: pushbuttonseo/pbseo-settings.php:309
+msgid "Set to zero to disable or a number from 1 to 4 to signify how many non-keywords are permitted between significant words in a keyword phrase"
+msgstr "Setze für Deaktivierung auf Null, oder gib eine Zahl von 1 bis 4 ein, um anzugeben, wie viele Nicht-Schlüsselwörter zwischen wichtigen Schlüsselworten in einer Schlüsselwortphrase zulässig sind"
+
+#: pushbuttonseo/pbseo-settings.php:341
+msgid "Links Settings"
+msgstr "Links-Einstellungen"
+
+#: pushbuttonseo/pbseo-settings.php:354
+msgid "Home Page Primary Keyword"
+msgstr "Hauptschlüsselwort der Home Page"
+
+#: pushbuttonseo/pbseo-settings.php:355
+msgid "Enter the primary keyword you are targeting for your home page"
+msgstr "Gebe das Hauptschlüsselwort, welches Du für Deine Homepage anpeilst, ein"
+
+#: pushbuttonseo/pbseo-settings.php:382
+msgid "Content Settings"
+msgstr "Inhaltseinstellungen"
+
+#: pushbuttonseo/pbseo-settings.php:393
+msgid "Flickr API Key"
+msgstr "Flickr API Key"
+
+#: pushbuttonseo/pbseo-settings.php:394
+msgid "Enter your Flickr API key, you will need this to retrieve related images"
+msgstr "Gebe einfach Deinen Flickr-API-Schlüssel ein, um entsprechende Bilder abzurufen"
+
+#: pushbuttonseo/pbseo-settings.php:395
+msgid "Get a Flickr API Key"
+msgstr "Hol Dir einen Flickr-API-Key"
+
+#: pushbuttonseo/pbseo-settings.php:416
+msgid "Language"
+msgstr "Sprache"
+
+#: pushbuttonseo/pbseo-settings.php:417
+msgid "Select if you want content to be resticted to a specific language"
+msgstr "Wählen Sie, wenn Sie Inhalte auf eine bestimmte Sprache resticted werden wollen"
+
+#: pushbuttonseo/pbseo-wrappers-wp.php:18
+#: pushbuttonseo/pbseo-wrappers-wp.php:31
+#: pushbuttonseo/pbseo-wrappers-wp.php:46
+#: pushbuttonseo/pbseo-wrappers-wp.php:60
+#: pushbuttonseo/pbseo-wrappers-wp.php:73
+#: pushbuttonseo/pbseo-wrappers-wp.php:86
+#: pushbuttonseo/pbseo-wrappers-wp.php:102
+#: pushbuttonseo/pbseo-wrappers-wp.php:118
+#: pushbuttonseo/pbseo-wrappers-wp.php:135
+#: pushbuttonseo/pbseo-wrappers-wp.php:152
+#: pushbuttonseo/pbseo-wrappers-wp.php:169
+#: pushbuttonseo/pbseo-wrappers-wp.php:186
+#: pushbuttonseo/pbseo-wrappers-wp.php:200
+#: pushbuttonseo/pbseo-wrappers-wp.php:216
+#: pushbuttonseo/pbseo-wrappers-wp.php:231
+#: pushbuttonseo/pbseo-wrappers-wp.php:247
+#: pushbuttonseo/pbseo-wrappers-wp.php:262
+#: pushbuttonseo/pbseo-wrappers-wp.php:277
+#: pushbuttonseo/pbseo-wrappers-wp.php:290
+#: pushbuttonseo/pbseo-wrappers-wp.php:305
+#: pushbuttonseo/pbseo-wrappers-wp.php:321
+#: pushbuttonseo/pbseo-wrappers-wp.php:336
+#: pushbuttonseo/pbseo-wrappers-wp.php:355
+msgid "Illegal function call"
+msgstr "Unzulässiger Funktionsaufruf"
+
+#~ msgid "Activation error"
+#~ msgstr "Aktivierungsstörung"
+#~ msgid "Enter your Flickr API key"
+#~ msgstr "Eingeben Sie Ihren Flickr API Schlüssel en"
+

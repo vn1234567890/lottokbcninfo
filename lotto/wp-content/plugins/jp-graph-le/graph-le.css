@@ -1,0 +1,386 @@
+.ajax-loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -32px; /* -1 * image width / 2 */
+    margin-top: -32px;  /* -1 * image height / 2 */
+    display: block;     
+}
+
+/**
+ * default development theme for jQRangeSlider
+ * Using fam fam icon set from Mark James, http://www.famfamfam.com/lab/icons/silk/ (Creative Commons Attribution 2.5 License)
+ */
+
+.ui-rangeSlider{
+	height:22px;
+}
+
+.ui-rangeSlider .ui-rangeSlider-innerBar{
+	height:16px;
+	margin:3px 6px;
+	background:#DDD;
+}
+
+.ui-rangeSlider .ui-rangeSlider-handle{
+	width:6px;
+	height:22px;
+	background:#AAA;
+	background:rgba(100,100,100, 0.3);
+	cursor:col-resize;
+}
+
+.ui-rangeSlider .ui-rangeSlider-bar{
+	margin: 1px 0;
+	background:#CCC;
+	background:rgba(100,100,150, 0.2);
+	height:20px;
+	cursor:move;
+	cursor:grab;
+	cursor: -moz-grab;
+}
+
+.ui-rangeSlider .ui-rangeSlider-bar.ui-draggable-dragging{
+	cursor:	-moz-grabbing;
+	cursor:grabbing;
+}
+
+.ui-rangeSlider-arrow{
+	height:16px;
+	margin:2px 0;
+	width:16px;
+	background-repeat:no-repeat;
+}
+
+.ui-rangeSlider-arrow.ui-rangeSlider-leftArrow{
+	background-image: url('icons/resultset_previous.png');
+	background-position:center left;
+}
+
+.ui-rangeSlider-arrow.ui-rangeSlider-rightArrow{
+	background-image: url('icons/resultset_next.png');
+	background-position:center right;
+}
+
+.ui-rangeSlider-arrow-inner{
+	display: none;
+}
+
+.ui-rangeSlider-container{
+	height:22px;
+}
+
+.ui-rangeSlider-withArrows .ui-rangeSlider-container{
+	margin:0 11px;
+}
+
+.ui-rangeSlider-noArrow .ui-rangeSlider-container{
+	margin:0;
+}
+
+.ui-rangeSlider-label{
+	margin:0 2px 2px;
+	background-image:url('icons/label.png');
+	background-position:bottom center;
+	background-repeat:no-repeat;
+  white-space: nowrap;
+  bottom:20px;
+  padding:3px 6px 7px;
+  cursor:col-resize;
+}
+
+.ui-rangeSlider-label-inner{
+	display:none;
+}
+
+/*
+ * Edit slider
+ */
+
+input.ui-editRangeSlider-inputValue{
+	width:3em;
+	vertical-align: middle;
+	text-align:center;
+}
+
+.ui-multiselect { padding:2px 0 2px 4px; text-align:left }
+.ui-multiselect span.ui-icon { float:right }
+.ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
+.ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important }
+
+.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px }
+.ui-multiselect-header ul { font-size:0.9em }
+.ui-multiselect-header ul li { float:left; padding:0 10px 0 0 }
+.ui-multiselect-header a { text-decoration:none }
+.ui-multiselect-header a:hover { text-decoration:underline }
+.ui-multiselect-header span.ui-icon { float:left }
+.ui-multiselect-header li.ui-multiselect-close { float:right; text-align:right; padding-right:0 }
+
+.ui-multiselect-menu { display:none; padding:3px; position:absolute; z-index:10000 }
+.ui-multiselect-checkboxes { position:relative /* fixes bug in IE6/7 */; overflow-y:scroll }
+.ui-multiselect-checkboxes label { cursor:default; display:block; border:1px solid transparent; padding:3px 1px }
+.ui-multiselect-checkboxes label input { position:relative; top:1px }
+.ui-multiselect-checkboxes li { clear:both; font-size:0.9em; padding-right:3px }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label { text-align:center; font-weight:bold; border-bottom:1px solid }
+.ui-multiselect-checkboxes li.ui-multiselect-optgroup-label a { display:block; padding:3px; margin:1px 0; text-decoration:none }
+
+/* remove label borders in IE6 because IE6 does not support transparency */
+* html .ui-multiselect-checkboxes label { border:none }
+
+.tooltip {
+	border-bottom: 1px dotted #000000; color: #000000; outline: none;
+	cursor: help; text-decoration: none;
+	position: relative;
+}
+.tooltip span {
+	margin-left: -999em;
+	position: absolute;
+}
+.tooltip:hover span {
+	border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+	font-family: Calibri, Tahoma, Geneva, sans-serif;
+	position: absolute; left: 1em; top: 2em; z-index: 99;
+	margin-left: 0; width: 250px;
+}
+.tooltip:hover img {
+	border: 0; margin: -10px 0 0 -55px;
+	float: left; position: absolute;
+}
+.tooltip:hover em {
+	font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1.2em; font-weight: bold;
+	display: block; padding: 0.2em 0 0.6em 0;
+}
+.classic { color: #000 !important; text-transform: none; font-weight: normal; font-size: 17px; padding: 0.8em 1em; }
+.custom { padding: 0.5em 0.8em 0.8em 2em; }
+* html a:hover { background: transparent; }
+.classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+.critical { background: #FFCCAA; border: 1px solid #FF3334;	}
+.help { background: #9FDAEE; border: 1px solid #2BB0D7;	}
+.info { background: #9FDAEE; border: 1px solid #2BB0D7;	}
+.warning { background: #FFFFAA; border: 1px solid #FFAD33; }
+.bold { display: inline; font-weight: bold; text-decoration: underline;}
+.red { color: red;}
+.blue { color: blue;}
+
+.jpbtn{background-color:#f5f5f5;border:1px solid rgba(0,0,0,0.1);border-bottom-color:rgba(0,0,0,0.15);border-collapse:collapse;
+-webkit-box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.6);-moz-box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.6);box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.6);color:#4a4a4a;cursor:pointer;display:inline-block;font-family:"Helvetica Neue","Helvetica","Arial",sans-serif;font-size:13px;font-weight:bold;line-height:normal;padding:1px 3px;text-decoration:none;text-shadow:0 1px 1px #fff;text-transform:uppercase;-webkit-transition:background-color 0.15s;-moz-transition:background-color 0.15s;-ms-transition:background-color 0.15s;-o-transition:background-color 0.15s;transition:background-color 0.15s}
+
+.jpbtn:hover{background:#fafafa;color:#4a4a4a}
+
+.jpbtn:active{background:#fff}
+
+.jpbtn.disabled,.jpbtn:disabled{opacity:0.7}
+
+.jpbtn.disabled:hover,.jpbtn:disabled:hover{background:#f5f5f5;cursor:default}
+
+.jpbtn.x-small{font-size:8px}
+
+.jpbtn.small{font-size:11px}
+
+.jpbtn.large{font-size:16px}
+
+.jpbtn.x-large{font-size:16px;height: 30px;line-height: 30px;width:192px;text-align: center;}
+
+.jpbtn{font-family:'Open Sans','Helvetica Neue',helvetica,arial,sans-serif}
+
+.jpbtn.fat{padding:.9em 1em}
+
+.jpbtn.green, #lottos .jpbtn:hover {background-color:#00aba9; -webkit-box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.3);-moz-box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.3);box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.3);color:#fff;text-shadow:0 1px 1px rgba(0,0,0,0.3)}
+
+.jpbtn.green:hover {background-color:#231f20}
+
+.jpbtn.orange, #lottos .jpbtn {background-color:#231f20;-webkit-box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.3);-moz-box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.3);box-shadow:0 2px 0 rgba(0,0,0,0.06),inset 0 1px 0 rgba(255,255,255,0.3);color:#fff;text-shadow:0 1px 1px rgba(0,0,0,0.3)}
+
+.jpbtn.orange:hover{background-color:#041563}
+
+.preloader {
+   height:350px; background:url("http://lottoexposed.com/wp-content/themes/lottoexposed/graph/img/loading40.gif") center center no-repeat;
+}
+
+#compare {
+margin-top: 15px;
+}
+
+#jpwrap {
+position: relative;
+top: 8px;
+width: 100%;
+height: 44px;
+background-color: #000;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+}
+
+#jpwraptext {
+color: #FFFFFF;
+float: left;
+font-size: 32px;
+margin: 10px;
+width: 350px;
+}
+
+.ui-multiselect{
+margin-right: 15px !important;
+}
+
+#jp {
+position: relative;
+display: inline;
+float: right;
+margin-right: 7px;
+}
+
+#hcdashboard {
+height: 170px;
+}
+
+ul#btns {
+margin: 0;
+padding: 0;
+height: 210px;
+}
+
+ul#btns li {
+position: relative;
+display: inline-block;
+_display: inline;
+list-style: none;
+margin: 2px 18px 0 0;
+float: left;
+}
+
+ul#btns li:nth-child(4n) {
+margin: 2px 0 0 0;
+}
+
+.hotnumber {
+width: 32px;
+height: 32px;
+color: black;
+font-size: 12px;
+line-height: 32px;
+text-shadow: 0 1px 1px #fff;
+float: left;
+margin-right: 5px;
+background: url("http://www.lotterypros.com/wp-content/themes/Dealer_v1_3/dealer/graph/img/hotball.png") center center no-repeat;
+}
+
+.hotstar {
+width: 24px;
+height: 24px;
+color: white;
+font-size: 10px;
+line-height: 24px;
+text-align: center;
+text-shadow: 0 1px 1px #000;
+float: left;
+margin-right: 5px;
+cursor: hand;
+cursor: pointer;
+background: url("http://www.lotterypros.com/wp-content/themes/Dealer_v1_3/dealer/graph/img/redstar.png") center center no-repeat;
+}
+
+.coldnumber {
+width: 32px;
+height: 32px;
+color: black;
+font-size: 12px;
+line-height: 32px;
+text-shadow: 0 1px 1px #fff;
+float: left;
+margin-right: 5px;
+background: url("http://www.lotterypros.com/wp-content/themes/Dealer_v1_3/dealer/graph/img/coldball.png") center center no-repeat;
+}
+
+.coldstar {
+width: 24px;
+height: 24px;
+color: white;
+font-size: 10px;
+line-height: 24px;
+text-align: center;
+text-shadow: 0 1px 1px #000;
+float: left;
+margin-right: 5px;
+cursor: hand;
+cursor: pointer;
+background: url("http://www.lotterypros.com/wp-content/themes/Dealer_v1_3/dealer/graph/img/bluestar.png") center center no-repeat;
+}
+
+/* 3d css*/
+
+#hot.bubble:before {
+background-color: #FFFFFF;
+border-radius: 3px 3px 15px 15px;
+content: " ";
+display: block;
+height: 30%;
+margin-left: -10px;
+opacity: 0.2;
+position: absolute;
+width: 100%;
+}
+
+#cold.bubble:before {
+background-color: #FFFFFF;
+border-radius: 3px 3px 15px 15px;
+content: " ";
+display: block;
+height: 30%;
+margin-left: -10px;
+opacity: 0.2;
+position: absolute;
+width: 100%;
+}
+
+#hot.red {
+	background: url("") repeat scroll 50% 50% #fe0000;
+}
+
+#cold.blue {
+	background: url("") repeat scroll 50% 50% #3c00e9;
+}
+
+#hot.three-d {
+	border: 1px solid #000000;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 2px 4px #000000;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	outline: medium none;
+	padding: 0 10px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #333333;
+}
+
+#cold.three-d {
+	border: 1px solid #000000;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0 2px 4px #000000;
+	color: #FFFFFF;
+	display: block;
+	float: left;
+	outline: medium none;
+	padding: 0 10px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 1px #333333;
+}
+
+#btns a {
+    width:146px;
+    height:30px;
+    line-height: 30px;
+    font-size: 11px;
+    font-weight: normal;
+    text-align: center;
+    overflow:hidden;
+    margin:0;
+}
+#dashboard:after,#predictedjps:after {content:' ';}
