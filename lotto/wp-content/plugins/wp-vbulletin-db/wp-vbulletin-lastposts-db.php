@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 Plugin Name: VBulletin Posts-DB
 Plugin URI: http://mydomain.com

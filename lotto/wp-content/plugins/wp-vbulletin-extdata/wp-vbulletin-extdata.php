@@ -1,4 +1,4 @@
-<?
+<?php
 /*
 Plugin Name: VBulletin ExtData
 Plugin URI: http://mydomain.com
