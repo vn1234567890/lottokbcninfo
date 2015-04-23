@@ -20,14 +20,15 @@
 
 	class STbox {
 	    function cssStyles() {
-	      $stPath = WP_PLUGIN_URL.'/'.plugin_basename(dirname(__FILE__)).'/styles/'.'/';
-	      echo '<link rel="stylesheet" type="text/css" media="screen" href="' . $stPath . 'style.css" />'."\n";
+	      // $stPath = WP_PLUGIN_URL.'/'.plugin_basename(dirname(__FILE__)).'/styles/'.'/';
+	      // echo '<link rel="stylesheet" type="text/css" media="screen" href="' . $stPath . 'style.css" />'."\n";
 	    }
 	}
 	   
- 
+	  
 	function all_lottery_agent_table($atts, $content = null) 
-	{    
+	{ 
+		// kksr_ajax(  array('stars' => stars ,'id' => stars ) ) 
 		// ======================================= 
 	      global $wpdb;
 	      $postID  = get_the_ID(); 
@@ -36,8 +37,9 @@
 	?>
  
 
+
 <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="http:////cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.css">
+<link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.css">
 <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/responsive/1.0.1/css/dataTables.responsive.css">
 <script type='text/javascript' src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script type='text/javascript' src="http://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
@@ -58,12 +60,12 @@
      width:inherit; 
   }
 </style>
-<script type='text/javascript'>//<![CDATA[ 
-	window.onload=function(){
+<script type='text/javascript'> 
+ 
 		$(document).ready(function() {
 		    $('#example').DataTable({
 		    	responsive: true, 
-		    });
+		    }); // alert('dddd');
 		    document.getElementById('example').style.width = '570px';
 		    document.getElementById('example_length').style.paddingTop = '10px';
 		    // document.getElementById('example_wrapper').getElementsByClassName('row')
@@ -72,7 +74,7 @@
 		    document.getElementById('example_length').innerHTML = ''
    
 		} );
-	}//]]>
+ 
 </script> 
 
 <div class="row" style='padding-left: 30px;'>
