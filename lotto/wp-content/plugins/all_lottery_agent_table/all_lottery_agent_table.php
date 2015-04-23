@@ -24,18 +24,17 @@
 	      echo '<link rel="stylesheet" type="text/css" media="screen" href="' . $stPath . 'style.css" />'."\n";
 	    }
 	}
-	  
+	   
+ 
 	function all_lottery_agent_table($atts, $content = null) 
-	{ 
-	
+	{    
 		// ======================================= 
 	      global $wpdb;
 	      $postID  = get_the_ID(); 
 		// =========================================
 		$posts_array = get_posts(array('post_type' => 'lottery_sites', 'orderby' => 'title', 'order' => 'ASC', 'numberposts' => -1));
 	?>
-
-
+ 
 
 <link rel="stylesheet" type="text/css" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="http:////cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.css">
@@ -101,6 +100,8 @@
             <th>User Rating</th>
             <th>Read Review</th>
             <th>Join Live Discussion</th> 
+            <th>RATE</th> 
+             
         </tr>
     </thead>
      <tbody> 
@@ -109,7 +110,8 @@
 			$arr = array();
 			$post_title = $post->post_title;
 			$post_id = $post->ID; 
-			  
+			$arr['get_post'] = get_post($my_id);
+
 			$arr['post_id'] = $post_id;
 			$arr['selected'] = $selected;
 			$arr['post_title'] = $post_title;
@@ -134,6 +136,10 @@
 			$arr['lottery_sites_sitename'] = get_post_meta( $post_id , 'lottery_sites_sitename' , true ) ;
 
 			$arr['JoinLiveDiscussion'] = get_post_meta( $post_id ,'lottery_sites_revurl',true); //var_dump($arr['test']); exit;
+			$arr['RATE'] = null;
+
+ 
+
 		?>  
 			 <tr style="width: 575px;">
 				<td style="text-align: center;"><a title="<?php substr( $arr['lottery_sites_sitename'] , 0, 8); ?>" href="<?php echo $arr['lottery_sites_sitename']; ?>" target="_blank" rel="nofollow"> <?php echo substr( $arr['lottery_sites_sitename'] , 0, 26); ?> </a></td>
@@ -142,6 +148,7 @@
 				<td style="text-align: center;"><?php echo $arr['alexa'] ?></td>
 				<td style="text-align: center;"><a href="<?php echo $arr['revurl']; ?>" target="_blank"><img src="http://www.lottoexposed.com/wp-content/uploads/2014/11/Blue-review-button.png" alt="Read Our Review" width="100" height="35" /></a></td>
 				<td style="text-align: center;"><a href="<?php echo $arr['JoinLiveDiscussion']; ?>" target="_blank"><img src="http://www.lottoexposed.com/wp-content/uploads/2014/11/Forum-Button.gif" alt="Join TheLotter Live Discussion" width="100" height="30" /></a></td>
+				<td style="text-align: center;"><?php echo $arr['RATE'] ?></td>
 			</tr>  
 		<?php 
 		}
