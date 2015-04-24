@@ -1,0 +1,56 @@
+
+/*------------------------------------*\
+    Android
+\*------------------------------------*/
+@media only screen and (min-device-pixel-ratio : 1.325),(max-device-width: 640px),(max-width: 640px){
+    *{ margin:0px; padding:0px;}
+
+    .container{
+        width: 610px;
+        overflow-x: hidden;
+    }
+    .navigation ul li a {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    #about-us {
+        height: 44%;
+        clear: both;
+        float: none;
+    }
+    .home #container-wrap{
+        clear: both;
+    }
+    .countdownTitle{
+        font-size: 18px;
+    }
+    .div.transBg{
+        display: none !important;
+    }
+}
+@media only screen and (min-device-pixel-ratio : 1.325),(max-device-width: 800px),(max-width: 800px){
+    *{ margin:0px; padding:0px;}
+
+ .container{
+     width: 610px;
+     overflow-x: hidden;
+ }
+    .navigation ul li a {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    #about-us {
+        height: 44%;
+        clear: both;
+        float: none;
+    }
+    .home #container-wrap{
+        clear: both;
+    }
+    .countdownTitle{
+        font-size: 18px;
+    }
+    .div.transBg{
+        display: none !important;
+    }
+}

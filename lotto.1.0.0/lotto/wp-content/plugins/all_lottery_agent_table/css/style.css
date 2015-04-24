@@ -1,0 +1,61 @@
+.green a:link, .green a:visited{
+  color:#ffffff;
+  text-decoration:none !important;
+}
+
+.black a:link, .black a:visited{
+  color:#ffffff;
+  text-decoration:none !important;
+}
+
+.green a:hover, .black:hover{
+  color:#ffffff;
+  text-decoration:none !important;
+}
+
+.green {
+display: inline-block;
+font-weight:bold;
+font-size:1.2em;
+background : -webkit-gradient(linear, left top, left bottom, from(#88c841), to(#73b338));
+background : -moz-linear-gradient(center top, #88c841, #73b338);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 5px 20px;
+text-align: center;
+-shadow: 0px 1px 0px #6c0909;
+color:#ffffff !important;
+text-decoration:none !important;
+}
+
+.green:hover {
+background : -webkit-gradient(linear, left top, left bottom, from(#73b338), to(#88c841));
+background : -moz-linear-gradient(center top, #73b338, #88c841);
+color:#ffffff !important;
+text-decoration:none !important;
+}
+
+.black {
+display: inline-block;
+font-weight:bold;
+font-size:1.2em;
+background : -webkit-gradient(linear, left top, left bottom, from(#000000), to(#414141));
+background : -moz-linear-gradient(center top, #414141, #000000);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+padding: 5px 20px;
+text-align: center;
+-shadow: 0px 1px 0px #6c0909;
+color:#ffffff !important;
+text-decoration:none !important;
+}
+
+.black:hover {
+background : -webkit-gradient(linear, left top, left bottom, from(#414141), to(#000000));
+background : -moz-linear-gradient(center top, #000000, #414141);
+color:#ffffff !important;
+text-decoration:none !important;
+}
+

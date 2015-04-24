@@ -1,0 +1,352 @@
+#top3jps-le {
+
+    /*width: 300px;*/
+
+}
+
+#top3jps-le {
+
+    font-family: "Trebuchet MS", Verdana;
+    margin-top: 5px;
+}
+
+#top3jps-le .logos {
+
+    float: left;
+
+    margin-top: 8px;
+
+    width: 117px;
+
+}
+
+#top3jps-le a.playbutton {
+
+    background: #231f20;
+
+    display: block;
+
+    height: 24px;
+
+    width: 83px;
+
+    text-align: center;
+
+    margin: 0 auto;
+
+    color: #fff;
+
+    font-size: 12px;
+
+    font-family: Arial, sans-serif;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    line-height: 23px;
+
+    float: right;
+
+}
+
+#top3jps-le .jackpots_box {
+
+    background: url("/wp-content/themes/lottoexposed/images/jackpots_box.png");
+
+    padding: 2px 4px;
+
+    border: 1px solid #e0dfdd;
+
+    width: 640px;
+
+    box-shadow: 0 4px 7px #ccc;
+
+}
+
+#top3jps-le .jackpots_box:after {
+
+    content: ".";
+
+    display: block;
+
+    height: 0;
+
+    line-height: 0;
+
+    clear: both;
+
+}
+
+#top3jps-le .jackpots_box_header {
+
+    background: #041563;
+
+    height: 44px;
+
+    color: #fff;
+
+    padding: 0 8px;
+
+    line-height: 43px;
+
+    text-transform: uppercase;
+
+    margin: 0 0 24px;
+
+    font-size: 20px;
+
+    position: relative;
+
+}
+
+#top3jps-le .jackposts_bag {
+
+    width: 89px;
+
+    height: 68px;
+
+    background: url("/wp-content/themes/lottoexposed/images/money_bag_icon.png") right top no-repeat;
+
+    position: absolute;
+
+    right: -2px;
+
+    top: -12px;
+
+}
+
+#top3jps-le .sidebar-jackpot {
+
+    width: 270px;
+
+    text-align: left;
+
+    height: 85px;
+
+    margin: 0 auto;
+
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+
+}
+
+#top3jps-le .android {
+
+    display: inline-block !important;
+
+    width: 278px !important;
+
+    height: auto;
+
+    margin: 0 auto;
+
+}
+
+#top3jps-le .android_logos {
+
+    float: left;
+
+    margin-top: 8px;
+
+    width: 118px;
+
+}
+
+#top3jps-le .jackpots_box .sidebar-jackpot:first-child {
+
+    background: none !important;
+
+}
+
+#top3jps-le a.lottery_link {
+
+    color: #2f2f2f;
+
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+    font-family: "PT Sans";
+
+    font-weight: 400;
+
+    text-decoration: none;
+
+}
+
+#top3jps-le a.lottery_link:hover {
+
+    text-decoration: underline;
+
+}
+
+#top3jps-le .lottery_amount {
+
+    color: #0f4a8c;
+
+    font-size: 23px;
+
+    font-weight: bold;
+
+}
+
+#top3jps-le .countdownTimer {
+
+    color: #303030;
+
+    font-size: 18px;
+
+    font-weight: normal;
+
+    font-family: 'PT Sans', sans-serif;
+
+    float: right;
+
+    margin-right: 5px;
+
+}
+
+#top3jps-le .countdownContainer {
+
+    float: left;
+
+    width: 100%;
+
+}
+
+#top3jps-le .countdownTitle {
+
+    color: #fd641b !important;
+
+    float: left;
+
+    position: absolute;
+
+    /*border-bottom:1px double #F0F0F0;*/
+
+    font-size: 23px;
+
+    text-align: left;
+
+    width: 275px;
+
+    margin-top: -4px;
+
+}
+
+#timers1, #timers2, #timers3 {
+
+    line-height: 34px;
+
+}
+
+#top3jps-le .playnow2 {
+
+    padding: 3px 14px;
+
+    background: #006400;
+
+    text-transform: uppercase;
+
+    text-align: center;
+
+    color: #fff;
+
+    text-decoration: none;
+
+    line-height: 23px;
+
+    font-size: 10px;
+
+    float: right;
+
+}
+
+.playRegular {
+    float: right;
+    line-height: 23px;
+}
+
+.play_btn_right {
+    float: left;
+    margin-left: 450px
+}
+
+.playRegular {
+    cursor: pointer
+}
+
+.playRegular span, .playRegular a {
+    color: #FFFFFF;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: Tahoma, Geneva, Sans-Serif;
+    font-size: 12px;
+    padding: 0 6px
+}
+
+.playRegular span {
+    font-size: 15px;
+    padding-top: 12px;
+    font-family: Tahoma, Geneva, Sans-Serif
+}
+
+.playRegular a {
+
+    font-family: "oswald";
+
+    font-size: 18px;
+
+    font-weight: normal;
+
+    letter-spacing: 1px;
+}
+
+.playRegularStart_int, .playRegularEnd_int, .playRegular_int {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAEvCAIAAAAYcXzYAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RkM3QzhGNTdBQUIxMTFFM0ExRkI4MTVGMDk0ODA0QTMiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RkM3QzhGNThBQUIxMTFFM0ExRkI4MTVGMDk0ODA0QTMiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpGQzdDOEY1NUFBQjExMUUzQTFGQjgxNUYwOTQ4MDRBMyIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpGQzdDOEY1NkFBQjExMUUzQTFGQjgxNUYwOTQ4MDRBMyIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pl2KghEAAAQjSURBVHja1Ji/b9NAFMfvHNuUJpUatQMTEgwVlWBhQB26UESFxMKAxFYkfixMiP+Dka0TjPwHlSgSRYIuDEi0EoxVWFoBahJC4pwfzznH9a/3enaTKj1lcPz1e/fe3flzzycBQBDNjq70QzBsRxr+8QdNKaUv8I4dCXjX87xer9cftFDDhhoKnVYTNl/bPz673b+hT3wEjdDCf/+m1njrXtyXFYX3rcgn+nG+f3Ln9qWlBIYCSc3qtrVFIocw7sHjOfkN0zy6tFK5549L1s5OK1DGjo0TZG6c3PwdGycXCxQfs2NjAdPcjX0CGwuYjotFm7E5cHGajwuAKDu3McOy88DlXiA/yNeklAXWpxUZZe0sLViWZds2uFVQVrhqIKl5i8vdw3ok21qrVCqu66rVxy0B3d2PstsO7mtCkMzSPiMHEetkhIcsIyXDVrM5Gh93/Y11Z/ejM8g9wV21sV7d23YuX8A0M9zd2XLm68GE+D7+7LhWQe7iRPkql7sgfUW/t36fyB1/pB0aqj69riktmDO/T8dC+sQOlVc8FkxCMrGQ+QnepyjjEyVJ98fYCc4nBKuBHJfYK5C1K7E/ALM3ArNXAcs6en8AZj8CUc4u1d94feLrChx7cnPX3M3ZUyO2iqma8mU+d53rtw88O5IT3J29//yPgF9fNkSnNWHcZZmMIZFap9MhtWazSdaR1VePSLvalW/0/gAlaw0Qk+KztCbPRpyTNA+TZDeeWARMSg6nn3vJtXv48xKlyUajQTJrZmaGtEN+k1rZWvjE3M2mIX+/WCbtpq8u0OMZK3SymqKZxWjx4reIz3gBWESTfr+kT69cf5zP0rH0xzAPZTVmTXBna/6Z36vOyv4wjv5Ka7v/po7nbpZZp81dAybLYYsf7gRM1jU7NizY9YWWAybjlT1o+CngOE7Q00AOa2Fwp72FJbWyJmozUekf1sKgKr3GXmvL7d16WBm04An9iSEt5c7tOzsfMDT9gZD8Bqooq9uOa8k5AhF9PBRcZ5D4vjVeE1BuLQFXC8PprmuAMXACTHM39gnmZ5XmOYBxDqNhDxSY25HUwmCa+8nPhbOnw0XWUvyA+MgOfAvcKlLmiD1aQ6HbrHvXbjpxTdfCcK7qLS5bK2uIJg2XkMkpZmmqBTeRyRTrQibnMvKEtfBouTv98kGUu1p9kuCuroVBKW9vu73p9u48jXF3cASMV8583fn6LsnWYb0UdJ/ibqIGix3apOtB4GqwmFG6HgTgakUga+H0fpvwydXCnB3QtXDmnC8Ri0XnAC4Tp0OOWTo/mdCEZMaa9ilAUrVwZjxj/zNz5AvGzozXwDCZ8wks64z7489wDe0KnQuPxGeCu+a5U9xVuB6manHuhvWZ8uWBZzs37iaYHNbC52vu0ursvWeTyt3/AgwAuEHkXjJpDWoAAAAASUVORK5CYII=);
+    background-repeat: repeat-y;
+    float: left;
+    height: 30px
+}
+
+.playRegular:hover .playRegularStart_int {
+    background-position: 0px 253px
+}
+
+.playRegularStart_int {
+    background-position: 0px 303px;
+    width: 9px;
+    height: 50px;
+}
+
+.playRegular:hover .playRegularEnd_int {
+    background-position: 0px 51px
+}
+
+.playRegularEnd_int {
+    background-position: 0px 101px;
+    width: 9px;
+    height: 50px;
+}
+
+.playRegular:hover .playRegular_int {
+    background-position: 0px 152px
+}
+
+.playRegular_int {
+    cursor: pointer;
+    background-position: 0px 202px;
+    background-repeat: repeat;
+    height: 50px;
+    text-align: center
+}
+
+.PlayButton > input {
+    margin: 1px !important
+}
+
+.PlayButton > span {
+    margin: 2px !important
+}

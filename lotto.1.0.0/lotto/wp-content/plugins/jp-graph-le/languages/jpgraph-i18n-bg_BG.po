@@ -1,0 +1,368 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jpgraph-i18n\n"
+"POT-Creation-Date: 2013-10-16 00:05+0200\n"
+"PO-Revision-Date: 2013-10-16 00:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\bgplo2\\wp-content\\plugins\\jp-"
+"graph\n"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:8
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:205
+msgid "Check all"
+msgstr "Избери всички"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:9
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:206
+msgid "Uncheck all"
+msgstr "Размаркирай всички"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:10
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:207
+msgid "Select options"
+msgstr "Изберете лотарии"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:11
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:208
+msgid "# selected"
+msgstr "# избрани"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:12
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:209
+msgid "Compare up to 3 lottos"
+msgstr "Сравнете до 3 лотарии"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:13
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:210
+msgid "You can compare up to 3 lottos only!"
+msgstr "Можете да сравнявате до 3 лотарии!"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:14
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:211
+msgid "Check a few boxes."
+msgstr "Изберете няколко лотарии"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:15
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:212
+msgid "Please select at least two or more lotteries to compare!"
+msgstr "Моля, изберете поне 2 лотарии!"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:16
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:213
+msgid "en"
+msgstr "bg"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:116
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:365
+msgid "Extra numbers:"
+msgstr "Допълнителни числа:"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:117
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:366
+msgid "This lotto do not have additional extra numbers!"
+msgstr "Тази лотярия няма допълнителни числа!"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:118
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:367
+msgid "Drawn Times"
+msgstr "Изтеглени пъти"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:119
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:368
+msgid "Cold number"
+msgstr "Студено число"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:120
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:369
+msgid "Hot number"
+msgstr "Горещо число"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:121
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:370
+msgid "Lotto Numbers"
+msgstr "Лотарийни числа"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:122
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:371
+msgid "Draw No: "
+msgstr "Теглене №:"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:231
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:480
+#, php-format
+msgid "Drawn number: %d<br />Drawn %s times"
+msgstr "Изтеглено число: %d<br />Изтеглено %s пъти"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:274
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:523
+#, php-format
+msgid "Drawn number: %d"
+msgstr "Изтеглено число: %d"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:275
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:524
+#, php-format
+msgid "Drawn %d times"
+msgstr "Изтеглено %d пъти"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:36
+msgid "Predicted Jackpot:"
+msgstr "Прогнозиран джакпот:"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:37
+msgid "Compare Lottos"
+msgstr "Сравни лотарии"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:38
+msgid ""
+"All Lottery Jackpots Are Gathered Into 1 Visual Graph. Enables You To "
+"Research, Compare And Predict The Next Lottery Jackpot."
+msgstr ""
+"Всички джакпоти от всички лотарии са събрани в графиката по-долу. Това ви "
+"дава възможност да изследвате, сравнявате и да предвиждате следващият "
+"джакпот за дадена лотария."
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:39
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:112
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:592
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:670
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:691
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:778
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:799
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:820
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:930
+msgid "Mega Millions"
+msgstr "Мега Милиони"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:40
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:113
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:593
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:671
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:692
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:779
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:800
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:821
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:932
+msgid "Powerball"
+msgstr "Пауърбол"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:41
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:114
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:594
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:672
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:693
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:780
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:801
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:822
+msgid "Euro Millions"
+msgstr "Евро Милиони"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:42
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:115
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:595
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:673
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:694
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:781
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:802
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:823
+msgid "Powerball Australia"
+msgstr "Пауърбол Австралия"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:43
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:116
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:596
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:674
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:695
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:782
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:803
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:824
+msgid "Hot Lotto"
+msgstr "Хот Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:44
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:117
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:597
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:675
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:696
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:783
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:804
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:825
+msgid "El Gordo"
+msgstr "Ел Гордо"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:45
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:118
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:598
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:676
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:697
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:784
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:805
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:826
+msgid "France Loto"
+msgstr "Френска Лотария"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:46
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:119
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:599
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:677
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:698
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:785
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:806
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:827
+msgid "UK National Lottery"
+msgstr "Английска Лотария"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:47
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:120
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:600
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:678
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:699
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:786
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:807
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:828
+msgid "California SuperLotto"
+msgstr "Суперлото Плюс"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:48
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:121
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:601
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:679
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:700
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:787
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:808
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:829
+msgid "Oz Lotto"
+msgstr "Лотария Оз"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:49
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:122
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:602
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:680
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:701
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:788
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:809
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:830
+msgid "Lotto 6/49"
+msgstr "Лотария 6/49"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:50
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:123
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:603
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:681
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:702
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:789
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:810
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:831
+msgid "Hoosier Lotto"
+msgstr "Лотария Индияна"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:51
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:124
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:604
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:682
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:703
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:790
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:811
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:832
+msgid "New York Lotto"
+msgstr "Лотария Ню Йорк"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:52
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:125
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:605
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:683
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:704
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:791
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:812
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:833
+msgid "Florida Lotto"
+msgstr "Лотария Флорида"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:53
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:126
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:606
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:684
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:705
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:792
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:813
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:834
+msgid "Mega Sena"
+msgstr "Мега Сена"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:54
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:127
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:607
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:685
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:706
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:793
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:814
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:835
+msgid "Irish Lotto"
+msgstr "Ирландска Лотария"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:55
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:128
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:608
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:686
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:707
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:794
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:815
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:836
+msgid "Thunderball"
+msgstr "Тъндърбол"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:56
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:129
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:609
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:687
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:708
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:795
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:816
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:837
+msgid "Superena Lotto"
+msgstr "Лотария СуперЕна"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:57
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:130
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:610
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:688
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:709
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:796
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:817
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:838
+msgid "German Lotto"
+msgstr "Немска Лотария"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:58
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:131
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:611
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:689
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:710
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:797
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:818
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:839
+msgid "La Primitiva"
+msgstr "Ла Примитива"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:111
+msgid ""
+"All Winning Numbers Are Gathered Into 1 Visual Graph. Enables You To See The "
+"<div class=\"bold red\">Hot</div> (Drawn More Than The Average) And <div "
+"class=\"bold blue\">Cold</div> (Drawn Less Than The Average) And To Decide "
+"Which Numbers To Choose!"
+msgstr ""
+"Всички печеливши числа са събрани в графиката по-долу, давайки ви възможност "
+"да виждате кои числа са <div class=\"bold red\">Горещи</div> (Изтеглени "
+"повече от средното пъти) и <div class=\"bold blue\">Студени</div> (Изтеглени "
+"по-малко от средното пъти) и да прецените кой числа да изберете!"
+
+#, fuzzy
+#~ msgid "Drawn number: "
+#~ msgstr "Допълнителни числа:"

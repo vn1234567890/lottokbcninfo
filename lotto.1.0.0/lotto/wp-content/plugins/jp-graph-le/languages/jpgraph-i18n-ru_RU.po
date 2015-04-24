@@ -1,0 +1,208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jpgraph-i18n\n"
+"POT-Creation-Date: 2013-10-15 17:58+0200\n"
+"PO-Revision-Date: 2013-10-15 18:10+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\bgplo2\\wp-content\\plugins\\jp-"
+"graph\n"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:8
+msgid "Check all"
+msgstr "Проверьте все"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:9
+msgid "Uncheck all"
+msgstr "Снять все"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:10
+msgid "Select options"
+msgstr "Выберите варианты"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:11
+msgid "# selected"
+msgstr "# выбран"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:12
+msgid "Compare up to 3 lottos"
+msgstr "Сравните до 3 лотерей"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:13
+msgid "You can compare up to 3 lottos only!"
+msgstr "Вы можете сравнить до 3 лотерей только!"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:14
+msgid "Check a few boxes."
+msgstr "Проверьте несколько ящиков."
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:15
+msgid "Please select at least two or more lotteries to compare!"
+msgstr ""
+"Пожалуйста, выберите по крайней мере, два или более лотерей для сравнения!"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.js.php:16
+msgid "en"
+msgstr "ru"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:112
+msgid "Extra numbers:"
+msgstr "Дополнительные номера:"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:113
+msgid "This lotto do not have additional extra numbers!"
+msgstr "Эта лотерея не имеют дополнительных дополнительные номера!"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:114
+msgid "Drawn Times"
+msgstr "Рисованные раз"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:115
+msgid "Cold number"
+msgstr "Холодные номера"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:116
+msgid "Hot number"
+msgstr "Горячие номера"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:117
+msgid "Lotto Numbers"
+msgstr "лотереи"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:118
+msgid "Draw No: "
+msgstr "Тираж №:"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:227
+#, php-format
+msgid "Drawn number: %d<br />Drawn %s times"
+msgstr "Рисованные номер:%d<br />Ничьих %s раз"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:270
+#, php-format
+msgid "Drawn number: %d"
+msgstr "Рисованные номер: %d"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/graph.php:271
+#, php-format
+msgid "Drawn %d times"
+msgstr "Рисованные %d раз"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:38
+msgid "Predicted Jackpot:"
+msgstr "Прогнозируемая Джекпот:"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:39
+msgid "Compare Lottos"
+msgstr "Сравнить"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:40
+msgid ""
+"All Lottery Jackpots Are Gathered Into 1 Visual Graph. Enables You To "
+"Research, Compare And Predict The Next Lottery Jackpot."
+msgstr ""
+"Всички джакпоти от всички лотарии са събрани в графиката по-долу. Това ви "
+"дава възможност да изследвате, сравнявате и да предвиждате следващият "
+"джакпот за дадена лотария."
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:41
+msgid "Mega Millions"
+msgstr "Мега Миллионы"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:42
+msgid "Powerball"
+msgstr "Пауэрбол"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:43
+msgid "Euro Millions"
+msgstr "ЕвроМиллионы"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:44
+msgid "Powerball Australia"
+msgstr "Пауэрбол Австралия"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:45
+msgid "Hot Lotto"
+msgstr "Хот Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:46
+msgid "El Gordo"
+msgstr "Эль Гордо"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:47
+msgid "France Loto"
+msgstr "Франция Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:48
+msgid "UK National Lottery"
+msgstr "Лотерея Великобритании"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:49
+msgid "California SuperLotto"
+msgstr "СуперЛото Плюс"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:50
+msgid "Oz Lotto"
+msgstr "Оз Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:51
+msgid "Lotto 6/49"
+msgstr "Лото 6/49"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:52
+msgid "Hoosier Lotto"
+msgstr "Индиана Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:53
+msgid "New York Lotto"
+msgstr "Нью-Йорк Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:54
+msgid "Florida Lotto"
+msgstr "Лото Флорида"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:55
+msgid "Mega Sena"
+msgstr "Мега-Сена"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:56
+msgid "Irish Lotto"
+msgstr "Ирландское Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:57
+msgid "Thunderball"
+msgstr "Тандербол"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:58
+msgid "Superena Lotto"
+msgstr "СуперЕна Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:59
+msgid "German Lotto"
+msgstr "Германия Лото"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:60
+msgid "La Primitiva"
+msgstr "Ла Примитива"
+
+#: D:\xampp\htdocs\bgplo2\wp-content\plugins\jp-graph/jpgraph.php:112
+msgid ""
+"All Winning Numbers Are Gathered Into 1 Visual Graph. Enables You To See The "
+"<div class=\"bold red\">Hot</div> (Drawn More Than The Average) And <div "
+"class=\"bold blue\">Cold</div> (Drawn Less Than The Average) And To Decide "
+"Which Numbers To Choose!"
+msgstr ""
+"Всички печеливши числа са събрани в графиката по-долу, давайки ви възможност "
+"да виждате кои числа са <div class=\"bold red\">Горещи</div> (Изтеглени "
+"повече от средното пъти) и <div class=\"bold blue\">Студени</div> (Изтеглени "
+"по-малко от средното пъти) и да прецените кой числа да изберете!"
+
+#, fuzzy
+#~ msgid "Drawn number: "
+#~ msgstr "Допълнителни числа:"

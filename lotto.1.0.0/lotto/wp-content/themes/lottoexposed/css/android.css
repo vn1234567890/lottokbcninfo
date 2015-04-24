@@ -1,0 +1,488 @@
+
+/*------------------------------------*\
+    Android
+\*------------------------------------*/
+@media screen and (max-width: 800px){
+    *{ margin:0px; padding:0px;}
+
+    .container{
+        width: 610px;
+        overflow-x: hidden;
+    }
+    .navigation ul li a {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    #about-us {
+        height: 44%;
+        clear: both;
+        float: none;
+    }
+    .home #container-wrap{
+        clear: both;
+    }
+    .countdownTitle{
+        font-size: 18px;
+    }
+    .div.transBg{
+        display: none !important;
+    }
+    .kk-star-ratings {
+        display:  none;
+    }
+    .raitng_header {
+        display:  none;
+    }
+}
+@media screen and (max-width: 640px){
+    *{ margin:0px; padding:0px;}
+
+    .container{
+        width: 610px;
+        overflow-x: hidden;
+    }
+    .navigation ul li a {
+        font-size: 20px;
+        padding: 0 5px;
+    }
+    #about-us {
+        height: 44%;
+        clear: both;
+        float: none;
+    }
+    .home #container-wrap{
+        clear: both;
+    }
+    .countdownTitle{
+        font-size: 18px;
+    }
+    .div.transBg{
+        display: none !important;
+    }
+    .kk-star-ratings {
+        display:  none;
+    }
+    .raitng_header {
+        display:  none;
+    }
+}
+@media screen and (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-family: 'PT Sans', Arial, Helvetica, sans-serif;
+        color: #000;
+        background: url(../images/body.png) repeat-x #fff;
+        margin: 0;
+    }
+    a {
+        color: #00ABA9;
+    }
+    h1, h2, h3 {
+        margin: 5px 0;
+        color: #000;
+    }
+    body {
+        -webkit-text-size-adjust: none;
+        font-size: 16px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    div {
+        clear: both!important;
+        display: block;
+        width: 100%!important;
+        float: none!important;
+        margin: 0!important;
+        padding: 0!important;
+    }
+    p {
+        clear: both!important;
+        display: block!important;
+        width: 97%!important;
+        float: none!important;
+        font-size: .9em;
+        padding: 0 6px;
+    }
+    .page #content {
+        border: 0 solid;
+    }
+    .text_inner img {
+        padding-right: 10px;
+        width: auto;
+        height: auto;
+    }
+    .text_inner p img {
+        width: 25%}
+    .wp-table-reloaded-id-1 .column-1 img {
+        width: auto;
+        height: auto;
+        padding-right: 0;
+    }
+    .wp-table-reloaded-id-1 .column-2 img {
+        width: auto;
+        height: auto;
+        padding: 0;
+    }
+    #si_image_log, #si_image_reg, #si_image_side_login, .wp-table-reloaded-id-3 .column-1 img, .wp-table-reloaded-id-3 .column-2 img, div.contentbg_mid_left div.content_inner_container div.text_inner div#comments div.post_comment div.inner div#respond.comment-respond form#commentform.comment-form p img#si_image_com.si-captcha, img#si_image_com, wp-table-reloaded-id-1 .column-2 a img, wp-table-reloaded-id-3 .column-2 a img {
+        width: auto;
+        height: auto;
+    }
+    #content .post_comment p input, #content .post_comment p input.required {
+        width: 285px!important;
+        padding-right: 13px;
+    }
+    img.captchaImgRefresh {
+        width: 22px!important;
+        height: 20px!important;
+    }
+    input#captcha_code {
+        background: url(../images/required.png) right 14px no-repeat #fff;
+    }
+    .text_inner>h1 {
+        margin-top: 10px;
+    }
+    .entry-title, .text_inner h2 {
+        text-align: center;
+        width: 100%;
+        margin: 5px 0!important;
+        border-top: 3px double #2b2b2b;
+    }
+    div.contentbg_mid_left div.content_inner_container div.text_inner p img {
+        width: 8%;
+        top: 6px;
+        position: relative;
+    }
+    .home .g1-mobile {
+        display: none!important;
+        position: absolute;
+        top: 310px;
+    }
+    .page .g1-mobile, .single .g1-mobile {
+        position: absolute;
+        top: 170px;
+    }
+    .text_inner h3 {
+        margin: 5px 0;
+        color: #fff;
+        text-indent: 4px;
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+    }
+    .comment-reply-title {
+        padding: 0!important;
+    }
+    .related_post_title {
+        font-size: 14px!important;
+    }
+    h3.related_post_title {
+        background-color: #00aba9!important;
+    }
+    h3.related_post_title:after {
+        top: -45px;
+    }
+    ul.related_post, ul.related_post ul {
+        text-align: center;
+    }
+    .lottery_review_screenshot {
+        border: 0 solid;
+    }
+    .commentlist cite, .text_inner span {
+        position: relative;
+        top: 10px;
+    }
+    .single .text_inner span {
+        top: 0;
+        font-size: 16px;
+    }
+    .comment-meta {
+        top: -16px;
+    }
+    html body.page div.container div#container div#content div#post-249.post-249 div.content_inner_container div.text_inner p img.aligncenter {
+        width: 90%}
+    .single_lottery_page h2.entry-title {
+        padding: 0;
+    }
+    .lottery_draws_name, .lottery_name_assigned {
+        color: #000;
+        font-family: 'PT Sans';
+        font-size: 29px;
+        position: relative;
+        text-align: right;
+        top: 2px;
+        right: 0;
+        width: 198px!important;
+    }
+    .approved {
+        border: 0 double #FFF;
+        height: 53px;
+        text-align: right;
+        width: 90px!important;
+        line-height: 20px;
+        font-size: 13px;
+    }
+    .approved img {
+        position: relative;
+        width: 90px;
+        top: -5px;
+        left: 0;
+        z-index: 1;
+    }
+    .single div.posted_on {
+        border-top: 0 solid #8f8989;
+        border-bottom: 1px solid #8f8989;
+        padding: 0!important;
+        margin: 0!important;
+        height: 96px;
+        top: -6px;
+        left: 0;
+        width: 320px!important;
+    }
+    .posted_on_author, .posted_on_comments, .posted_on_date {
+        padding: 0 28px!important;
+        width: 55%!important;
+    }
+    #logo, #sidebar-search, .header_top_mid {
+        display: none!important;
+    }
+    #logo_mobi {
+        display: block!important;
+        text-align: center;
+        margin-top: 52px!important;
+    }
+    .g-plus-wrap {
+        position: absolute;
+    }
+    .entry-content .addthis_button, .entry-content .addthis_toolbox, .entry-header .addthis_button, .entry-header .addthis_toolbox {
+        margin: 10px 0 30px!important;
+    }
+    div.text, div.text a {
+        font-size: 21px;
+    }
+    .size-thumbnail {
+        display: none!important;
+    }
+    .size-thumbnail_mobi {
+        display: block!important;
+    }
+    .header_in {
+        width: 0;
+    }
+    #content {
+        width: 100%}
+    #commentbox-top {
+        width: 0;
+    }
+    .comment-author img {
+        width: 40px;
+        height: 40px;
+        padding: 12px 0;
+    }
+    .arrow-down {
+        background: url(../images/arrow-down.png) no-repeat!important;
+        padding: 18px;
+        position: absolute;
+        top: 0;
+        right: 30px;
+    }
+    .home .post {
+        height: 100%}
+    .sidebar-block .subscribe-newsletter form {
+        text-align: center;
+    }
+    select#subscribe-reloaded {
+        width: 280px;
+    }
+    .home #graphdiv, .menu-header .menu {
+        display: none!important;
+    }
+    #about-us {
+        font-size: .8em;
+        height: 172px;
+        display: none!important;
+    }
+    #about-us a {
+        background: #231F20;
+        color: #FFF;
+        display: block;
+        float: right;
+        font-family: Oswald;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 24px;
+        margin: 2px 2px 5px;
+        padding: 3px 0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 72px;
+    }
+    .sidebar-block {
+        display: none!important;
+    }
+    .jackpots_box_header, .sidebar-block-mobi .sidebar-block-header {
+        text-indent: 40px!important;
+    }
+    .sidebar-block-header {
+        background: #2F2F2F!important;
+        border-bottom: 5px double #FFF;
+        color: #FFF;
+        margin: 0!important;
+        letter-spacing: 1px;
+        padding: 0 15px!important;
+        height: 42px;
+        line-height: 42px;
+        font-family: 'PT Sans', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+        text-transform: uppercase;
+        position: relative;
+    }
+    .nav_fixed_mobi {
+        background: url(../images/menu-bg.png) repeat-x #2B2B2B;
+        position: fixed;
+        z-index: 100;
+        top: 0;
+        height: 52px;
+    }
+    .menu_mobi {
+        background: url(../images/menu-icon.png) 8px 8px no-repeat;
+        width: 56px!important;
+        height: 52px;
+        float: left!important;
+    }
+    ul#mmenu {
+        height: 202px;
+        width: 100%;
+        top: 50px;
+        position: absolute;
+        background: url(../images/menu-bg.png) repeat-x #2B2B2B;
+    }
+    ul#mmenu li {
+        width: 98%;
+        position: relative;
+        background: url(../images/menu-bg.png) repeat-x #2B2B2B;
+        top: 2px;
+        height: 40px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    ul#mmenu li a {
+        color: #DBDBDB;
+        text-transform: uppercase;
+        font-weight: 700;
+        text-decoration: none;
+        line-height: 37px;
+        font-size: 18px;
+    }
+    ul#mmenu li:hover {
+        border-right: 3px solid #00ABA9;
+        border-left: 3px solid #00ABA9;
+    }
+    ul#mmenu li a:hover {
+        color: #00ABA9;
+    }
+    #sidebar-search_mobi {
+        width: 80%!important;
+        display: inline-block!important;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        margin: 8px 0 0 8px!important;
+    }
+    #sidebar-search_mobi input[type=text] {
+        border: none;
+        background: url(../images/search-input.png) no-repeat;
+        width: 174px;
+        height: 37px;
+        padding: 0 11px;
+        line-height: 22px;
+        float: left;
+        color: #BBB;
+        font-family: "PT Sans", sans-serif;
+        font-size: 16px;
+    }
+    #sidebar-search_mobi input[type=image] {
+        position: absolute;
+        right: 12px;
+        top: 8px;
+    }
+    .sidebar-jackpot {
+        display: inline-block!important;
+        width: 30%!important;
+        height: 155px;
+        margin-top: 8px!important;
+        margin-bottom: 10px!important;
+    }
+    .sidebar-jackpot a.lottery_link {
+        font-size: 12px;
+    }
+    .sidebar-jackpot div {
+        font-size: 13px;
+    }
+    .review_table {
+        float: none;
+        width: 320px;
+    }
+    p.date {
+        background: #231f20;
+        color: #fff;
+        line-height: 32px;
+        margin: 6px 0 -41px;
+        font-weight: 700;
+        width: 90px!important;
+        position: relative;
+        right: -170px;
+        top: -80px;
+    }
+    div.posted_on {
+        color: #C53437;
+        text-decoration: none;
+        text-transform: none;
+        line-height: 20px!important;
+        height: 0;
+        position: relative;
+        top: -34px;
+        right: -166px;
+        width: 159px!important;
+        font-size: 12px;
+    }
+    div.posted_on a {
+        line-height: 20px!important;
+    }
+    .footer_bg, .footer_container>div {
+        height: 100%}
+    div.footer5 {
+        top: 29px;
+    }
+    .footer_container .widget_text p:first-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .wp-pagenavi {
+        width: 315px!important;
+        margin-left: 3px!important;
+    }
+    .wp-pagenavi span.extend {
+        display: inline-block;
+        width: 10px;
+        margin: 9px;
+    }
+    #wpfront-scroll-top-container {
+        right: 0!important;
+        bottom: 0!important;
+        text-align: right;
+    }
+    .approved_lotteries_wrapper {
+        display: none!important;
+    }
+    .kk-star-ratings {
+        display:  none;
+    }
+    .raitng_header {
+        display:  none;
+    }
+}
+
