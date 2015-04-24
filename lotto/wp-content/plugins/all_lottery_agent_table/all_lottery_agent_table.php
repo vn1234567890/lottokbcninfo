@@ -49,6 +49,24 @@
 <script type='text/javascript' src="http://cdn.datatables.net/responsive/1.0.1/js/dataTables.responsive.min.js"></script>
 <script type='text/javascript' src="http://cdn.datatables.net/plug-ins/a5734b29083/integration/bootstrap/3/dataTables.bootstrap.js"></script>
 <style type='text/css'>
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+  color: #fff; 
+  background-color: #2D2F30;
+  border-color: #33373A; 
+
+  }
+
+
+ .pagination > li > a, .pagination > li > span { 
+  color: #3C4145;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+
+
     body { font-size: 140%} 
     table.dataTable th,
     table.dataTable td { white-space: nowrap; }
