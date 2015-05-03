@@ -58,4 +58,246 @@ background : -moz-linear-gradient(center top, #000000, #414141);
 color:#ffffff !important;
 text-decoration:none !important;
 }
+  
+#menu-mainmenu { 
+    height: 52px; 
+} 
 
+#example_wrapper ul.pagination {
+	margin-left:0;
+	padding-left:0;
+	list-style-type:none;
+}
+#example_wrapper ul.pagination a {
+ 
+	padding:.2em .5em;
+	/*border-bottom:1px solid #fff;*/
+	width:7em;
+}
+#example_wrapper  ul.pagination a:hover {
+	color:#5e6574; /* Цвет Текста при наведении мышки */
+	background:#fff; /* Цвет фона при наведении мышки */
+}
+#example_wrapper  ul.pagination li {
+	display:inline;
+}
+#example_wrapper  ul li {display:inline}
+
+
+#example_paginate  ul li.paginate_button.active {
+  text-decoration: underline;
+}
+
+/*$( "#example_wrapper")[0].style.background = 'none repeat scroll 0 0 #5e6574 ';*/
+
+
+#example_length {
+	padding-top: 10px; width: 155px;
+    margin-left: 4px;
+}
+#example_paginate {
+	width: 144px;
+}
+
+#example_wrapper {
+	/*background: none repeat scroll 0 0 #5e6574;*/
+   
+}
+
+#example_wrapper >.row {
+	background: none repeat scroll 0 0 #5e6574;
+    width: 630px;
+    border-bottom: 5px double #fff;
+}
+  
+
+li.paginate_button a {
+	color: #fff;
+} 
+
+#example_length label {
+	color: #fff;
+} 
+
+
+
+.devider {
+  display: inline-block;
+  border-left: 1px solid #B3B3B3;
+  height: 23px;
+  padding: 0 0px;
+  margin: -6px 0;
+ }
+
+ #example_length { 	
+    padding-top: 0px;
+ }
+ 
+
+    #menu-mainmenu {
+   		margin-bottom: 0px;
+        height: 52px;
+    }
+
+
+
+
+ 
+.content_container2 {
+
+    padding-top: 0px;
+
+}
+
+
+table.dataTable.dtr-inline.collapsed tbody td:first-child, table.dataTable.dtr-inline.collapsed tbody th:first-child {
+  position: relative;
+  padding-left: 5px;
+  cursor: pointer;
+}
+
+#example{
+	font-size: 6px;
+	/*width: 650px;*/
+}
+
+
+table.dataTable.dtr-inline.collapsed tbody td:first-child:before, table.dataTable.dtr-inline.collapsed tbody th:first-child:before {
+  top: 8px;
+  left: 4px;
+  /*height: 16px;*/
+  width: 16px;
+  display: block;
+  position: absolute;
+  color: white;
+  border: 0px solid white;
+  border-radius: 1px;
+  text-align: center;
+  line-height: 16px;
+  /*inline;*/
+  box-shadow: 0 0 0px #444;
+  box-sizing: content-box;
+  content: '+';
+  background-color: #00ABA9;
+
+  /*text-indent: 2px;*/
+}
+
+.dataTables_empty {
+	font-size: 12px; 
+}
+
+
+
+.child {
+	font-size: 12px;  
+}
+
+/* ul.pagination li.paginate_button.active
+  {
+	text-decoration: underline;
+}*/
+
+
+
+@media only screen and (max-device-width: 480px) {
+  #example > tbody > tr.child > td > ul{
+    padding-bottom: 14px;
+  }
+}
+
+
+.navigation ul {
+   
+  width: 711px; 
+
+}
+
+#menu-mainmenu {
+  height: 45px;
+}
+
+
+#row_4 th {cursor: pointer}
+
+/* def */
+.sorting {
+
+}
+/* up */
+.sorting_asc {
+
+}
+/* d */
+.sorting_desc {
+
+}
+
+
+
+/*
+table.dataTable thead .sorting_asc {
+    background-repeat: no-repeat;
+  background-position: center right;
+  background-image: url("https://cdn.datatables.net/1.10.7/images/sort_asc.png");
+}
+
+table.dataTable thead .sorting_desc {
+    background-repeat: no-repeat;
+  background-position: center right;
+  background-image: url("https://cdn.datatables.net/1.10.7/images/sort_desc.png"); 
+}
+*/
+
+
+table.dataTable thead .sorting_desc::after{ 
+  
+  /*border-color: gray;*/
+padding: 6px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 9px;
+ 
+  font-family: 'Glyphicons Halflings';
+  content: "\e252";  
+}
+
+table.dataTable thead .sorting_asc::after{ 
+padding: 6px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-size: 9px;
+
+  font-family: 'Glyphicons Halflings';
+  content: "\e253";  
+}
+
+
+/*
+table.dataTable thead .sorting {
+    background-repeat: no-repeat;
+  background-position: center right;
+  background-image: url("https://cdn.datatables.net/1.10.7/images/sort_both.png");
+}*/
+
+
+
+
+
+/*.module-tabs a:link, .module-tabs a:visited {*/
+ /* color: #fff;
+  background: #78bab6;
+  display: block;
+  float: left;
+  font-size: 15px;
+  margin-right: 1px;
+  padding: 3px 10px;
+  min-height: 42px;
+  width: 71px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "PT Sans",sans-serif;
+}*/
+/*
+pagination
+ width: 273px;*/
